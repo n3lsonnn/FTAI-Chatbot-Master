@@ -1,0 +1,1105 @@
+{
+  "source_pdf": "..\\data\\test_manual.pdf",
+  "total_chunks": 157,
+  "chunks": [
+    {
+      "id": 1,
+      "type": "section_chunk",
+      "title": "Maintenance Manual",
+      "content": "Maintenance Manual\nSINGLE ENGINE\nMODELS 172, 182,\nT182, 206 AND T206\n1996 And On\n.\nMember of GAMA\nCOPYRIGHT © 1996\nCESSNA AIRCRAFT COMPANY\nWICHITA, KANSAS, USA 2 DECEMBER 1996\nSESR04 REVISION4 1JUNE2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF EFFECTIVE PAGES\nCHAPTER-SECTION-SUBJECT PAGE DATE\n00-Title\n00-List of Effective Pages\n00-Record of Revisions\n00-Record of Temporary Revisions\n00-Table of Contents\nINTRODUCTION Pages 1-3 Jun 1/2005\nLIST OF REVISIONS Page 1 Jun 1/2005\nLIST OF CHAPTER Page 1 Jun 1/2005\n00 - LIST OF EFFECTIVE PAGES Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nMAINTENANCE MANUAL\nRevision\nNumber\nDate\nInserted\nDate\nRemoved\nPage\nNumber\nRevision\nNumber\nDate\nInserted\nDate\nRemoved\nPage\nNumber\n<!DOCTYPE chapter-toc PUBLIC \"-//Cessna D171G031//DTD MMGeneric V1.0//EN\"><chapter-toc chapnbr=\"\"\nmodel=\"\"> </chapter-toc><!DOCTYPE chapter-lot PUBLIC \"-//Cessna D171G031//DTD MM Generic\nV1.0//EN\"> <chapter-lot> <table> <tgroup cols=\"3\"> <colspec colnum=\"1\" colwidth=\"3*\"> <colspec colnum=\"2\"\ncolwidth=\"12*\"> <colspec colnum=\"3\" colwidth=\"4*\"> <tbody></tbody></tgroup></table></chapter-lot>\nPage 01\nCESSNA AIRCRAFT COMPANY\nMAINTENANCE MANUAL\nRECORD OF TEMPORARY REVISIONS\nTemporary Revision\nNumber Page Number Issue Date By Date Removed By\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCONTENTS\nI N T R O D U C T I O N ................................................................ I N T R O D U C T I O N\nPage 1\nG e n e r a l.................................................................... I N T R O D U C T I O N\nPage 1\nC o v e r a g e .................................................................. I N T R O D U C T I O N\nPage 1\nAirplane Identiﬁc a t i o n ....................................................... I N T R O D U C T I O N\nPage 1\nAeroﬁche (microﬁc h e )....................................................... I N T R O D U C T I O N\nPage 1\nUsing the Structural Repair Manual or Aero...",
+      "word_count": 485
+    },
+    {
+      "id": 2,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. The information in this publication is based on data available at the time of publication and is\nupdated, supplemented, and automatically amended by all information issued in Service News\nLetters, Service Bulletins, Supplier Service Notices, Publication Changes, Revisions, Reissues and\nTemporary Revisions. All such amendments become part of andare speciﬁcally incorporated within\nthis publication. Users are urged to keep abreast of the latest amendments to this publication through\ninformationavailable at Cessna Authorized Service Stations or throughthe Cessna Product Support\nsubscription services. Cessna Service Stations have also been supplied with a group of supplier\npublications which provide disassembly, overhaul, and parts breakdowns for some of the various\nsupplier issued revisions and service information which may be reissuedby Cessna’s Authorized\nService Stations and/or through Cessna’s subscription services.\nWARNING: All inspection intervals, replacement time limits, overhaul time\nlimits, themethod of inspection, life limits, cycle limits, etc.,\nrecommended by Cessna are solely based on the use of new,\nremanufactured, or overhauled Cessna approved parts. If parts are\ndesigned,manufactured, remanufactured, overhauled, purchased,\nand/or approved by entities other than Cessna, then the datain\nCessna’s maintenance/service manuals and parts catalogs are no\nlonger applicable and the purchaser is warned not to rely on such\ndata for non-Cessna parts. All inspection intervals, replacement\ntime limits, overhaul time limits, the method of inspection, life\nlimits, cycle limits, etc., for such non-Cessna parts must be\nobtained from the manufacturer and/or seller of such non-Cessna\nparts.",
+      "word_count": 238
+    },
+    {
+      "id": 3,
+      "type": "section_chunk",
+      "title": "2. Coverage",
+      "content": "2. Coverage\nA. The Cessna Single Engine Structural Repair Manual is prepared in accordance with the Air Transport\nAssociation Speciﬁcation 2200 for Manufacturers’ Technical Data.\nB. This Structural Repair Manual contains material identiﬁcation for structure subject toﬁeld repair; typical\nrepairs applicable to structural components; informationrelative to material substitution and fastener\ninstallation; and a description of procedures that must be performed with structural repair, such as\nprotective treatment of the repair and sealing.\nC. This manual will serve as a medium through which all singleengine operators will be advised of actual\nrepairs. As service records indicate a requirement, this manual will be revised to include additional\nspeciﬁc repairs.",
+      "word_count": 107
+    },
+    {
+      "id": 4,
+      "type": "section_chunk",
+      "title": "3. Airplane Identiﬁcation",
+      "content": "3. Airplane Identiﬁcation\nA. To identify structural differences to associated airplanes, the speciﬁc airplane identity may appear in\ntheﬁgure and the text. Items not identiﬁed for a speciﬁc airplane or group of airplanes are suitable\nfor all airplanes.",
+      "word_count": 38
+    },
+    {
+      "id": 5,
+      "type": "section_chunk",
+      "title": "4. Aero ﬁche (microﬁche)",
+      "content": "4. Aero ﬁche (microﬁche)\nA. The Structural Repair Manual is prepared for Aeroﬁche presentation in addition to 8 ½ by 11 inch loose\nleaf manual format. To facilitate the use of the aeroﬁche, a list of chapters with an aeroﬁche frame\nreference has bee tabulated and incorporated into the Introduction of the Structural Repair Manual.\nB. Aero ﬁche is a microform reproduction of the contents of the 8 ½ by 11inch manual in a form convenient\nfor service areas. An aeroﬁche reader is required to view the 4-inch by 6-inch aeroﬁche card. Each\naeroﬁche card contains 12 horizontal rows of 24 images each. An image displays information equal\nINTRODUCTION Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nto an 8 ½ by 11 inch loose leaf page and represents a frame. Horizontal rows are lettered from A\nat the top to L at the bottom. Vertical columns are numbered 1 to 24. The combination of a letter\nand a number identiﬁes a frame (image) in the aeroﬁche card. The List of Chapters provides a quick\nreference to information contained in the aeroﬁche.",
+      "word_count": 191
+    },
+    {
+      "id": 6,
+      "type": "section_chunk",
+      "title": "5. Using the Structural Repair Manual or Aeroﬁche",
+      "content": "5. Using the Structural Repair Manual or Aeroﬁche\nA. Division of Subject Matter.\n(1) Structural repair information is divided into chaptersin accordance with Air Transport Association\nSpeciﬁcation100. Each Chapter is further subdivided to provide individual or related structural\nmember presentation.\n(2) Chapter 51 provides general structural information required to perform a repair. Also included\nin Chapter 51are general repair procedures that may be accomplished in noncritical areas.\nB. Effectivity Page.\n(1) A list of effective pages is provided with each chapter. All pages listed are active and shall appear\nin sequence asrecorded in the Effectivity Page.\n(2) The Effectivity Page contains tabular listing of ATA number, page and date of each page in that\nchapter. A change in the chapter requires a revision to the chapter’s Effectivity Page. The date\ncorrespondsto the date that appears on the individual page which deﬁnes when that page was\nissued.\nC. Page Numbering System.\n(1) The Structural Repair Manual or corresponding aeroﬁche page numbering system consists of\nthe Air Transport Association Speciﬁcation 100 three element numbers separated by dashes.\nThe page number and date are printed immediately to the rightof the three element number. The\nthree element number is assigned to a component, with theﬁrst set of numbers corresponding\nto the ATA-100 assigned chapter number.\n(2) The page number complies with Air Transport AssociationSpeciﬁcation 100 for subdividing a\nStructuralRepair Manual. Blocks of sequential page numbers are used toidentify:\nPages 1 Through 100 - Structural Identiﬁcation\nPages 101 Through 199 - Allowable Damage\nPages 201 through 999 - Repair Procedures\n(3) The date which appears below the page number signiﬁes when the page was issued. If no\nrevisions to that page have occurred, the date signiﬁes original date.\n(4) Illustrations use the sameﬁgure numbering as the page block in which they appear. For example:\nFigure 202 would be the secondﬁgure in a ...",
+      "word_count": 309
+    },
+    {
+      "id": 7,
+      "type": "section_chunk",
+      "title": "6. Revision (Ma nual)",
+      "content": "6. Revision (Ma nual)\nA. Regular Revision.\n(1) Pages to be removed or inserted in the Structural Repair Manual are controlled by the Effectivity\nPage. Pages are listed in sequence by the three element number and then by page number.\nWhen two pages display the same three element number and pagenumber, the page displaying\nthe most recent Date of Page Issue shall be inserted into the Structural Repair Manual. The date\ncolumn on the corresponding chapter Effectivity Page shall verify the active page.\nB. Temporary Revision.\n(1) For paper publications:\n(a) Temporary revision pages areﬁled in the Structural Repair Manual by replacing existing\npages in the manual. File the temporary revision cover page according to theﬁling\ninstructions on the Temporary Revision Cover Page.\n(2) For aeroﬁche publications:\n(a) Draw a line through any aeroﬁche frame (page) affected by the Temporary Revision with a\npermanent red ink marker. This will be a visual identiﬁer that the information on the frame\n(page) is nolonger valid and the Temporary Revision should be referenced. for \"added\"\npages in a temporary Revision, draw a vertical line between the applicable frames which is\nwide enough to show on the edges of the pages. Temporary Revisions should be collected\nand maintained in a notebook or binder near the aeroﬁche library for quick reference.\nINTRODUCTION Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL",
+      "word_count": 234
+    },
+    {
+      "id": 8,
+      "type": "section_chunk",
+      "title": "7. Identifying Revised Material",
+      "content": "7. Identifying Revised Material\nA. Additions or revisions to text in an existing section willbe identiﬁed by a revision bar in the left margin\nof the page and adjacent to the change.\nB. When additions or revisions are made to text in an existingsection, all pages displaying the same\nthree element number shall also display the same Date of PageIssue. The date column on the\ncorresponding chapter Effectivity Page shall verify the active page. These pages will display the\ncurrent revision date in the Date of Page Issue location.\nC. When extensive technical changes are made to text in an existing section that requires extensive\nrevision, revision bars will appear the full length of text.\nD. When art is revised or added, a change bar will appear on thefull length of the page.\nINTRODUCTION Page 3\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF REVISIONS",
+      "word_count": 154
+    },
+    {
+      "id": 9,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. This Structural Repair Manual includes the original issue and the following listed revisions. To make\nsure that information in this manual is current and the latest maintenance and inspections procedures\nare available, revisions must be incorporated in the manual as they are issued.\nTable 1. Original Issue--2 December 1996\nRevision Number Date Writer Revision Number Date Writer\n1 16 May 1997 2 16 July 1999\n3 15 January 2001 4 1 June 2005 jmk\nLIST OF REVISIONS Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF CHAPTERS\nCHAPTER Jun 1/2005 FICHE/FRAME\n51 Standard Practices - Structures Jun 1/2005 1 A10\n52 Doors Jun 1/2005 1 D2\n53 Fuselage Jun 1/2005 1 D8\n55 Stabilizers Jun 1/2005 1 E7\n56 Windows Jun 1/2005 1 E16\n57 Wings Jun 1/2005 1 F2\n71 Powerplant Jun 1/2005 1 H2\nNOTE 1: *Represents date of page one of each chapter's List of Effective Pages which is applicable to Manual\nrevision date.\nLIST OF CHAPTERS Page 1\n© Cessna Aircraft Company Jun 1/2005\nCHAPTER\nSTANDARD\nPRACTICES -\nSTRUCTURES\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF EFFECTIVE PAGES\nCHAPTER-SECTION-SUBJECT PAGE DATE\n51-Title\n51-List of Effective Pages\n51-Record of Temporary Revisions\n51-Table of Contents\n51-00-00 Page 1 Jun 1/2005\n51-10-00 Pages 1-2 Jun 1/2005\n51-11-00 Pages 1-8 Jun 1/2005\n51-30-00 Pages 1-5 Jun 1/2005\n51-40-00 Pages 1-12 Jun 1/2005\n51-60-00 Pages 1-8 Jun 1/2005\n51-70-00 Page 801 Jun 1/2005\n51-71-00 Page 801 Jun 1/2005\n51-73-00 Pages 801-802 Jun 1/2005\n51-73-01 Page 801 Jun 1/2005\n51-75-00 Pages 801-808 Jun 1/2005\n51-76-00 Pages 801-803 Jun 1/2005\n51 - LIST OF EFFECTIVE PAGES Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nMAINTENANCE MANUAL\nRECORD OF TEMPORARY REVISIONS\nTemporary Revision\nNumber Page Number Issue Date By Date Removed By\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCONTENTS\nSTANDARD PRACTICES AND STRUCTURES - GENERAL . . . ....",
+      "word_count": 3597
+    },
+    {
+      "id": 10,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Chapter 51 describes general repair practices, materials and procedures which are applicable\nthroughout the subsequent chapters. This chapter also provides general information for performing\nany structural repairs.\nB. Unless otherwise speciﬁed, all dimensions are in inches; forces are in pounds and torques are in\ninch-pounds.\nC. The airplanesare of an all metal, semimonocoque construction, with the skin carrying a portion of all\nstructural loads.\nD. To obtain information covering dimensions, areas and stations diagrams, refer to current appropriate\nModel 172, Model 182 or Model 206 Maintenance Manual, Chapter 6, Dimensions and Areas.\nE. For information covering leveling and weighing, refer tocurrent appropriate Model 172, Model 182 or\nModel 206 Maintenance Manual, Chapter 8, Leveling and Weighing.",
+      "word_count": 119
+    },
+    {
+      "id": 11,
+      "type": "section_chunk",
+      "title": "2. Description",
+      "content": "2. Description\nA. The fuselage is of conventional semimonocoque construction. Construction consists of formed\nbulkheads, longitudinal stringers, reinforcing channels, and skin panels.\nB. The wings are of an all metal, strut-braced, semimonocoque construction, utilizing two spars. Each\nwing consists of a wing panel with an integral fuel bay, an aileron and aﬂap.\nC. The empennag e group is of a fully cantilevered design and consists of a conventional rudder and\nelevator conﬁguration. The horizontal stabilizer is of one-piece construction, consisting of spars, ribs,\nand skins. Elevators are constructed of spars, ribs, and skin panels. The skin panels are riveted to\nthe ribs and spars. A balance weight is located in the outboard end of each elevator, forward of the\nhinge line. An elevator trim tab is attached to the right handelevator and is constructed of a spar,\nribs, and skin, riveted together. The vertical stabilizer is constructed of a forward and aft spar, ribs,\nand skin. The rudder is constructed of spars, ribs, and skin panels.\nD. The main landing gear consists of 6150M alloy spring-steel, cantilevered with attaching parts of high-\nstrength 7075-T73 aluminum alloy forgings. Nose gear components are 4130 alloy steel and 7075-\nT73 aluminum alloy forgings.\nE. The engine mount is constructed of welded 4130 steel tubing on the 172 and 182. The 206 has a\nbuilt-up aluminum sheet metal engine mount.\nF. The remova ble engine cowling is made of 2024 Alclad secured with quarter turn fasteners.\n51-00-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nDAMAGE INVESTIGATION AND CLASSIFICATION",
+      "word_count": 264
+    },
+    {
+      "id": 12,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. For the purposes of this manual, damage is considered to bea deviation from the original\nconﬁguration of a structural part that compromises its structural integrity by signiﬁcantly reducing its\nstrength, signiﬁcantly decreasing its resistance to fatigue, signiﬁcantly increasing its susceptibility to\ncorrosion, signiﬁcantly altering itsﬂutter characteristics, or adversely affecting theﬂight characteristics\nof the airplane. This can include - but is not limited to - scratches, dents, dings, gouges, cracks,\ndrill starts, double drilled holes, plastic deformation, reduction in cross-sectional areas, changes in\ncomponent center-of-gravity, missing or inadequate fasteners, corrosion, dissimilar metal contact,\nwork hardening, temper change due to excessive heat, and so forth.\nB. Use good judgment in determining the type of signiﬁcant change toﬂat stock structural material. The\nterms, dent, crease, abrasion, gouge, nick, scratch, crackand corrosion, referred to elsewhere in the\nmanual, are deﬁned below as a guide for this determination, particularly with respect to the external\nskin of the airplane:\n(1) Dent - A dent is normally a damaged area which is depressedwith respect to its normal contour.\nThere is no cross sectional area change in the material. Areaboundaries are smooth. Its form\nis generally the result of contact with a relatively smoothly contouredobject.\nNOTE: A dent-like form of damage to skin may be the result of the peening action of a\nsmoothly contoured object contacting it. If the inner surface of skin shows no contour\nchange, consider that such damage results in a local cross sectional area change.\n(2) Crease - A damaged area which is depressed or folded back upon itself in such a manner that its\nboundaries are sharp or well deﬁned lines or ridges. Consider it to be the equivalent of a crack.\n(3) Abrasion - An abrasion is a damaged area of any size which results in a cross sectional area\nchange due to scufﬁng, rubbing, scraping or other surfac...",
+      "word_count": 547
+    },
+    {
+      "id": 13,
+      "type": "section_chunk",
+      "title": "2. Damage Investigation",
+      "content": "2. Damage Investigation\nA. After a thorough cleaning of the damaged area, all structural parts should be carefully examined\nto determine the extent of damage. Frequently, the force causing the initial damage is transmitted\nfrom one member to the next, causing strains and distortions. Abnormal stresses incurred by shock\nor impact forces on a rib, bulkhead, or similar structure, may be transmitted to the extremity of the\nstructural member, resulting in secondary damage, such as sheared orstretched rivets, elongated bolt\nholes, or canned skins or bulkheads. Points of attachment should be examined carefully for distortion\nand security of fastenings in the primary and secondary damaged areas at locations beyond the local\n51-10-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\ndamage. This is particularly true with wing tip, horizontalstabilizer tip, or verticalﬁn tip damage. If\nthe damage is due to an aft load, the rear spars should be checked for indications of compression\ndamage for thefull length, including the fuselage components.",
+      "word_count": 170
+    },
+    {
+      "id": 14,
+      "type": "section_chunk",
+      "title": "3. Damage Classi ﬁcation",
+      "content": "3. Damage Classi ﬁcation\nA. Damage to the airplane can be divided into three major categories: negligible damage, repairable\ndamage, and major replacement damage. These categories areintended to provide the mechanic\nwith some general guidelines to use in determining the extent and criticalness of any damage.\nObviously, there will be some overlapping between categories, and common sense should be used\nin determining theﬁnal action to be taken with regard to any damage.\n(1) For damage criteria of speciﬁc structure (wings, fuselage, and so forth), refer to applicable\nchapters within this repair manual.",
+      "word_count": 92
+    },
+    {
+      "id": 15,
+      "type": "section_chunk",
+      "title": "4. Re ﬁnishing Damaged Areas Following Repairs",
+      "content": "4. Re ﬁnishing Damaged Areas Following Repairs\nA. Areas of structure which are damaged and then repaired in theﬁeld, must be reﬁnished to restore the\noriginal paint and corrosion protectant properties to factory standards. Refer to applicable airplane\nMaintenance Manual, Chapter 20, Exterior Finish - Cleaning/Painting, for reﬁnishing procedures and\nrequired materials.\n51-10-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCORROSION AND CORROSION CONTROL - GENERAL",
+      "word_count": 76
+    },
+    {
+      "id": 16,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Corrosion is a natural phenomenon which destroys metal bychemical or electrochemical action and\nconverts it to a metallic compound such as an oxide, hydroxide, or sulfate. All metals used in airplane\nconstructionare subject to corrosion. If exposed, attack may take place over an entire metal surface.\nIt may penetrate a surface at random forming deep pits or may follow grain boundaries. Corrosion may\nbe accentuated by stresses from external loads or from lack of homogeneity in the metallic structure\nor from improper heat treatment. It is promoted by contact between dissimilar metals or with materials\nwhich absorb moisture such as wool, rubber, felt, dirt, and so forth.\nNOTE: For additional information on corrosion control for aircraft, refer to the FAA Advisory Circular\nNo. 43-4.\n(1) Refer to Figure 1 for a simpliﬁed illustration of the conditions which must exist for electrochemical\ncorrosion to occur.\n(a) There must be a metal that corrodes and acts as the anode.\n(b) There must bea less corrodible metal that acts as the cathode\n(c) There must be a continuous liquid path between the two metals which acts as the\nelectrolyte, usually condensation and salt or other contamination.\n(d) There must bea conductor to carry theﬂow of electrons from the cathode to the anode.\nThis conductor is usually in the form of a metal-to-metal contact (rivets, bolts, welds, etc.)\n(2) The elimination of any one of the four conditions described above will stop the corrosion reaction\nprocess as shown in Figure 1.\n(3) One of the best ways to eliminate one of the four describedconditions is to apply an organicﬁlm\n(such as paint, grease, plastic, etc.) to the surface of the metal affected. This will prevent the\nelectrolytefrom connecting the cathode to the anode, and since current cannotﬂow, it prevents\ncorrosive reaction.\n(4) At normal atmospheric temperatures, metals do not corrode appreciably without moisture, but\nthe moisturein the air is usually enough to start corrosive acti...",
+      "word_count": 398
+    },
+    {
+      "id": 17,
+      "type": "section_chunk",
+      "title": "2. Types of Cor rosion",
+      "content": "2. Types of Cor rosion\nA. Direct Surface Attack.\n(1) The most common type of general surface corrosion results from direct reaction of a metal\nsurface withoxygen in the atmosphere. Unless properly protected, steelwill rust and aluminum\nand magnesium will form oxides. The attack may be accelerated by salt spray or salt bearing\nair, by industrial gasses, or by engine exhaust gasses.\nB. Pitting.\n(1) While pitting can occur in any metal, it is particularly characteristic of passive materials such\nas alloys of aluminum, nickel, and chromium. It isﬁrst noticeable as a white or gray powdery\ndeposit similar to dust, which blotches the surface. When the deposits are cleaned away, tiny\npits can be seen in the surface.\nC. Dissimilar Metal Corrosion.\n(1) When two dissimilar metals are in contact and are connected by an electrolyte (continuous liquid\nor gas path), accelerated corrosion of one of the metals occurs. The most easily oxidized surface\nbecomes the anode and corrodes. The less active member of thecouple becomes the cathode\n51-11-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCorrosion Identiﬁcation\nFigure 1 (Sheet 1)\n51-11-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nof the galvanic cell. The degree of attack depends on the relative activity of the two surfaces; the\ngreater the difference in activity, the more severe the corrosion. Relative activity in descending\norder is as follows:\n(a) Magnesium and its alloys.\n(b) Aluminum alloys 1100, 3003, 5052, 6061, 220, 355, 356, cadmium, and zinc.\n(c) Aluminum alloys 2014, 2017, 2024, and 7075.\n(d) Iron, lead, and their alloys (except stainless steel).\n(e) Stainless steels, titanium, chromium, nickel, copper,and their alloys.\n(f) Graphite (including dryﬁlm lubricants containing graphite).\nD. Intergranular Corrosion.\n(1) Selective attack along the grain boundaries in metal alloys is referred to as in...",
+      "word_count": 513
+    },
+    {
+      "id": 18,
+      "type": "section_chunk",
+      "title": "3. Typical Corrosion Areas",
+      "content": "3. Typical Corrosion Areas\nA. This section lists typical areas of the airplane which aresusceptible to corrosion. These areas should\nbe carefully inspected at periodic intervals to detect corrosion as early as possible.\n(1) Engine Exhaust Trail Areas.\n(a) Gaps, seams, and fairings on the lower fuselage, aft of the engine exhaust pipe(s) are\ntypical areas where deposits may be trapped and not reached by normal cleaning methods.\n(b) Around rivetheads, skin laps and inspection covers on the airplane lowerfuselage aft of\nthe engine exhaust pipe(s) should be carefully cleaned and inspected.\n(2) Battery Box and Battery Vent Opening.\n(a) The battery,battery cover, battery box, and adjacent areas, especiallyareas below the\nbattery box where battery electrolyte may have seeped, are particularly subject to corrosive\naction. If spilled battery electrolyte is neutralized and cleaned up at the same time of\nspillage, corrosion can be held to a minimum by using a baking soda solution to neutralize\nthe lead acid-type battery electrolyte. If baking soda is not available,ﬂood the area with\nwater.\n(3) Stainless Steel control cables.\n(a) Checking for corrosion on control cables is normally accomplished during the preventative\nmaintenance check. During preventative maintenance, broken wire and wear of the control\ncable is also checked.\n51-11-00 Page 3\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(b) If the surface of the cable is corroded, carefully force the cable open by reverse twisting\nand visually inspect the interior. Corrosion on the interior strands of the cable constitutes\nfailure and the cable must be replaced. If no internal corrosion is detected, remove loose\nexternal rust and corrosion with a clean, dry, coarse-weaverag orﬁber brush.\nNOTE: Do not use metallic wools or solvents to clean installed cables. Use of metallic\nwool will embed dissimilar metal particles in the cables andcreate further\ncorrosion. Solvents will r...",
+      "word_count": 340
+    },
+    {
+      "id": 19,
+      "type": "section_chunk",
+      "title": "4. Corrosion Detection",
+      "content": "4. Corrosion Detection\nA. The primary means of corrosion detection is visual, but in situations where visual inspection is not\nfeasible, other techniques must be used. The use of liquid dye penetrants, magnetic particle, X-ray,\nand ultrasonic devices can be used, but most of these sophisticated techniques are intended for the\ndetection of physicalﬂaws within metal objects rather than the detection of corrosion.\n(1) Visual Inspection.\n(a) A visual check of the metal surface can reveal the signs ofcorrosive attack, the most\nobvious of which is a corrosive deposit. Corrosion deposits of aluminumor magnesium\nare generally a white or grayish-white powder, while the color of ferrous compounds varies\nfrom red to dark reddish-brown.\n1\nThe indications of corrosive attack are small localized discolorationof the metal\nsurface. Surfaces protected by paint or plating may only exhibit indications of more\nadvanced corrosive attack by the presence of blisters or bulges in the protectiveﬁlm.\nBulges in lap joints are indications of corrosive buildup which is well advanced.\n2 In may cases, because the inspection area is obscured by structural members,\nequipment installations, or for other reasons, it is awkward to check visually. In such\ncases, mirrors, boroscopes, or like devices must be used to inspect theobscured\nareas. Any means which allows a thorough inspection can be used. Magnifying\nglasses are valuable aids for determining whether or not allcorrosion products have\nbeen removed during cleanup operations.\n(2) Liquid Dye Penetrant Inspection.\n(a) Inspection for large stress-corrosion or corrosion fatigue cracks on nonporous or\nnonferrous metals may be accomplished using dye penetrant processes.The dye applied\nto a clean metallic surface will enter small openings or cracks by capillary action. After\nthe dye has an opportunity to be absorbed by any surface discontinuities, the excess dye\nis removed and a developer is applied to the surface. The developer acts like a blotter to\ndra...",
+      "word_count": 349
+    },
+    {
+      "id": 20,
+      "type": "section_chunk",
+      "title": "5. Corrosion Damage Limits",
+      "content": "5. Corrosion Damage Limits\nA. Following cleaning and inspection of the corroded area, the actual extent of the damage may be\nevaluated using the following general guidelines and soundmaintenance judgement.\n(1) Determine the degree of corrosion damage (light, moderate, or severe) with a dial-type depth\ngage, if accessibility permits. If the area is inaccessible, clay impressions, or any other means\nwhich will give accurate results, should be used. In the event the corrosion damage is severe\nor worse, contact Cessna Propeller Aircraft Product Support, P.O. Box 7706, Wichita, KS 67277\nUSA, forassistance.\n(2) Light Corrosion.\n(a) Characterized by discoloration or pitting to a depth of approximately 0.001 inch maximum.\n(3) Moderate Corrosion.\n(a) Appears similar to light corrosion except there may be blistering or some evidence of\nscaling orﬂaking. Pitting depths may be as deep as 10 percent of the material thickness.\n51-11-00 Page 4\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(4) Severe Corrosion.\n(a) General appearance may be similar to moderate corrosionwith severe blistering exfoliation\nand scaling orﬂaking. Pitting depths may be as deep as 15 percent of the material\nthickness. This type of damage is normally repaired by complete part replacement, but\npatches or other types of repair may be available. Contact Cessna Propeller Aircraft\nProduct Support, P.O. Box 7706, Wichita, KS 67277 USA, for assistance.",
+      "word_count": 227
+    },
+    {
+      "id": 21,
+      "type": "section_chunk",
+      "title": "6. Corrosion Removal",
+      "content": "6. Corrosion Removal\nA. The followingmethods are provided as an aid in determining the correct method for corrosion removal.\n(1) Standard Methods\n(a) Several standard methods are available for corrosion removal. The method normally used\nto remove corrosion are chemical treatments, hand sanding with aluminum oxide or metal\nwool that is of similar material to the surface being treated, and mechanical sanding or\nbufﬁng with abrasive mats or grinding mats. The method used depends on the metal and\nthe degree ofcorrosion. Select appropriate materials from the abrasives chart as illustrated\nin Figure 2.\n(2) Aluminum and Aluminum Alloys.\n(a) Most formed aluminum parts and skins of this airplane consist of various gauges of sheet\n2024-T3 and 2024-T42 Alclad. Alclad is formed by laminatinga thin layer of relatively\npure aluminum, one toﬁve mils thick, over the higher strength base alloy surface. Since\npure aluminum has relatively greater corrosion resistance than the stronger alloy, it is\nimperative the clad surface be maintained intact to the maximum extent possible and to\navoid unnecessary mechanical removal of the protective coating. In addition, aluminum\nparts receive a chemical conversion coating and are then epoxy-primed.\n1 Clean area to be reworked. Strip paint as required.\n2 To determine the extent of corrosion damage refer to Corrosion Damage Limits.\n3 Remove lightcorrosion by light hand sanding.\n4 Mechanically remove moderate or severe corrosion by hand scraping with a carbide-\ntipped scraper orﬁne-ﬂuted rotaryﬁle.\n5 Remove residual corrosion by hand sanding. Select appropriate abrasivefrom Figure\n2.\n6 Blend into surrounding surface any depressions resulting from rework and surface\nﬁnish with 400 grit abrasive paper.\n7 Clean reworked area.\n8 Determine depth of faired depressions to ensure that reworklimits have not been\nexceeded.\n9 Chemically conversion-coat rework area.\n10 Restore originalﬁnish (epoxy prime).\n(3) Steel.\n(a) Unlike some other metal oxides, the red o...",
+      "word_count": 608
+    },
+    {
+      "id": 22,
+      "type": "section_chunk",
+      "title": "7. Control of Corrosion on Landing Gear Springs",
+      "content": "7. Control of Corrosion on Landing Gear Springs\nA. General\n(1) The main landing gear springs are made from high strengthsteel that is shot peened on the\nlower surface to increase the fatigue life of the part.\n(2) The shot peened layer is between 0.010 and 0.020 inch thick.\n(3) If the protective layer of paint is chipped, scratched orworn away the steel may corrode (rust).\n(a) If the corrosionpit depth is greater than the thickness of the shot peen layer, the gear spring\nfatigue life will be greatly reduced.\n(4) Operation from unimproved surfaces increases the likelihood of damage.\nB. Corrosion removal and repair.\n(1) If damage to the paintﬁnish of the landing gear spring is found, examine the damage area for\nsigns of corrosion (red rust).\nWARNING: High strength steel parts are very susceptible to hydrogen\nembrittlement. Acidic solutions, such as rust removers\nand paint strippers have been found to cause hydrogen\nembrittlement. Hydrogen embrittlement is an undetectable,\ntime delayed process. Since the process is time delayed,\nfailure may occur after the part is returned to service. The\nonly reliable way to prevent hydrogen embrittlement is not to\nuse chemical rust removers or paint strippers on landing gear\nsprings.\n(2) Carefully remove any rust by light sanding.\n(a) The sanding should blend the damage into the surrounding area in an approximate 20:1\nratio.\nEXAMPLE: An 0.005 inchpit must be blended to a 0.10 inch radius or 0.20 inch\ndiameter.\n(b) Make sure theﬁnal sanding marks are along an inboard to outboard direction, or along the\nlong dimension of the spring.\n(3) After the sanding is complete, measure the depth of the damage removal.\n(a) Make sure thedepth of the damage is not more than 0.010 to 0.012 inch deep and has not\npenetrated the shot peen layer.\n(4) If the shot peened layer has been penetrated, the gear spring must be removed and sent to an\napproved facility to be re-shotpeened.\n(a) The shotpeen speciﬁcation is to be Almen intensity of 0.012 to 0.016 usi...",
+      "word_count": 585
+    },
+    {
+      "id": 23,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. This section provides information covering the materials used for repairs.",
+      "word_count": 13
+    },
+    {
+      "id": 24,
+      "type": "section_chunk",
+      "title": "2. Repair Materials",
+      "content": "2. Repair Materials\nA. In general, materials used in the airplane include 2024 and 7075 aluminum alloys. Sheet material\nrequiring little or no forming will generally be of 2024-T3 clad aluminum. Formed parts, such as ribs,\nbulkheads, etc., will be of 2024-T42 clad aluminum. Forgings are of 7075-T73. Materials used in\nrepairs should be, where possible, of the same material and heat treated to the same temper. The\nthickness should be equal to or greater than the material being repaired unless otherwise noted. If\nthe type of material cannot be readily determined and the forming required is not severe, 2024-T3\nmay be used generally, since the strength of -T3 is greater than that of -T4 or -T42 (-T4 and -T42 may\nbe used interchangeably, but they may not be substituted for-T3). When it is necessary to form a\npart with a smaller bend radius than the standard bend radius for 2024-T3 or 2024-T4, use 2024-0,\nand then heat treat to 2024-T42 after forming. In the event that the original temper was -T3, it may\nbe necessary to increase the material thickness sufﬁciently to provide strength equivalent to that of\nthe original part. It is often practical to cut repair pieces from service parts listed in the parts catalog.\nSteel sheet material for reinforcement is 4130 steel heat treated to a minimum of 90,000 pounds per\nsquare inch. Theﬁrewall is annealed stainless steel sheet.",
+      "word_count": 233
+    },
+    {
+      "id": 25,
+      "type": "section_chunk",
+      "title": "3. Extrusions and Formed Sections",
+      "content": "3. Extrusions and Formed Sections\nA. (Refer to Figure 1.) This section provides information onextrusions and formed sections. It also\nprovides details of equivalent built up sections for extrusions. Alternative materials are provided for\nequivalent sections and formed sections.\nB. Use of equivalent built up sections for extrusions are to be utilized only when the proper extrusions are\nnot available. They are intended to be cold formed from raw stock in sheet forms that have already\nbeen heat treated to the required condition. But when workability is required, the parts may be formed\nfrom 2024-0 aluminum and then heat treated to the -T42 condition before installation. When forming\nthe section, care must be taken to ensure that the bend radii and the cross section areas are not\nreduced below the minimum shown in the diagrams. In some cases, equivalent sections are not\ngiven because it is impractical to build them from sheet stock.\nC. Illustrated Parts Catalogs do not identify the standard shape from which parts are fabricated. Detailed\nmeasurements of damaged areas are required to determine thestandard section from which parts\nare fabricated.\n51-30-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nExtrusions and Formed Sections\nFigure 1 (Sheet 1)\n51-30-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nExtrusions and Formed Sections\nFigure 1 (Sheet 2)\n51-30-00 Page 3\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nExtrusions and Formed Sections\nFigure 1 (Sheet 3)\n51-30-00 Page 4\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nExtrusions and Formed Sections\nFigure 1 (Sheet 4)\n51-30-00 Page 5\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFASTENERS",
+      "word_count": 307
+    },
+    {
+      "id": 26,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Fasteners used in the airplane are generally solid aluminum rivets, blind rivets, and steel threaded\nfasteners. Usage of each is primarily a function of the loadsto be carried, accessibility and frequency\nof removal. Rivets used in airplane construction are usually fabricated from aluminum alloys. In\nspecial cases, monel, corrosion-resistant steel and mild steel, copper, and iron rivets are used.",
+      "word_count": 62
+    },
+    {
+      "id": 27,
+      "type": "section_chunk",
+      "title": "2. Rivets",
+      "content": "2. Rivets\nA. Standard solid shank MS rivets are those generally used inairplane construction. They are\nfabricated in the following head types: roundhead,ﬂathead, countersunk head, and universal\nhead. Flathead rivets are generally used in the airplane interior, wherehead clearance is required.\nMS20426 countersunk head rivets are used on the exterior surfaces of the airplane to minimize\nturbulent airﬂow. MS20470 universal head rivets are used on the exterior surfaces of the airplane\nwhere strength requirements necessitate a stronger rivet head than thatof the countersunk head\nrivet. Hi-Shear rivets are special, patented rivets havinga high shear strength equivalent to that of\nstandard NAS bolts. They are used in special cases in locations where high shear loads are present,\nsuch as in spars, wings, and in heavy bulkhead ribs. This rivet consists of a cadmium plated pin of\nalloy steel. Some have a collar of aluminum alloy. Some of these rivets can be readily identiﬁed by\nthe presence of the attached collar in place of the formed head on standard rivets. Blind rivets are\nused, where strength requirements permit, where one side of the structure is inaccessible, making it\nimpossible or impractical to drive standard solid shank rivets.",
+      "word_count": 195
+    },
+    {
+      "id": 28,
+      "type": "section_chunk",
+      "title": "3. Replaceme nt Of Hi-Shear Rivets",
+      "content": "3. Replaceme nt Of Hi-Shear Rivets\nA. Replacement of Hi-Shear rivets with close tolerance bolts or other commercial fasteners of equivalent\nstrength properties is permissible.\n(1) The hardware used for the Hi-Shear rivets is determined according to the size of the holes and\nthe grip lengths required.\n(2) Bolt grip length should be chosen so that no threads remain in the bearing area.\n(3) Holes must not be elongated, and the Hi-Shear substituted must be a smooth, push-ﬁt.\nB. Field replacement of main landing gear forgings on bulkheads may be accomplished by using the\nfollowing hardware:\n(1) NAS464P, N AS436P, and either: NAS1103 through NAS1120, NAS1303 through NAS623 or\nNAS6203 through NAS6220 bolt, and either:\n(a) MS21042 nut and AN960/NAS1149 washers in place of Hi-Shear rivets for forgings with\nmachined ﬂat surfaces around the attachment holes.\n(b) ESNA2935 mating base washer and ESNA RM52LH2935 self-aligning nut with forgings\n(with a draft angle of up to a maximum of eight degrees) without machinedﬂat surfaces\naround theattachment holes.",
+      "word_count": 166
+    },
+    {
+      "id": 29,
+      "type": "section_chunk",
+      "title": "4. Substitution Of Rivets",
+      "content": "4. Substitution Of Rivets\nA. When adapt ing the typical repairs shown in this manual to suit actual conditions, it may be necessary\nto use different fasteners than those originally used. Thismay be due to non-availability of a particular\nfastener, restricted access, or other difﬁculties. When replacing rivets, it is desirable to use rivets\nidenticalto the type of rivet removed. Countersunk head rivets are to be replaced by rivets of the\nsame type and degree of countersink. When rivet holes becomeenlarged, deformed, or otherwise\ndamaged, several options are available.\n(1) The simplest solution is to install a 1/32 inch (0.032 inch) larger size rivet as a replacement. This\nsolution uses the designed repairability of the structure,and is the quickest repair.\n(2) Repair rivets are available.\n(a) Repair rivets have a shank that is 1/64 inch (0.016 inch) larger diameter than a standard\nrivet but have the same size and shape heads.\n(b) NAS1241 repair rivets replace MS20426 rivets if they have the same sufﬁx.\n(c) NAS1242 repair rivets replace MS20470 rivets if they have the same sufﬁx.\n51-40-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(d) NAS1738, NAS1939 and some NAS9301 through NAS9311 blindrivets also have oversize\nshanks.\nB. Replacement s hall not be made with rivets of lower strength material.\nC. Hi-Shear Rivets.\n(1) When Hi-Shear rivets are not available, replacement of sizes 3/16 inch or greater rivets shall be\nmade with bolts of equal or greater strength than the rivet being replaced,and with self-locking\nnuts of the same diameter. It is permissible to replace Hi-Shear rivets with Hi-Lok bolts of the\nsame material, diameter and grip length.\nD. Blind Rivets.\n(1) Blind rivets have higher deﬂection rates in shear than standard solid rivets, are more susceptible\nto fatigue failure and are not as strong as solid rivets in thin sheets. For this reason, it is not\nadvisable to replace any considerable number...",
+      "word_count": 480
+    },
+    {
+      "id": 30,
+      "type": "section_chunk",
+      "title": "5. Rivet Diameters",
+      "content": "5. Rivet Diameters\nA. Rivet diameters range from 3/32 inch to 3/8 inch. Sizes of 1/8 inch, 5/32 inch, and 3/16 inch are\nmost frequently used. Since smaller diameter rivets lack proper structural qualities and larger\ndiameter rivets dangerously reduce the splice or patch area, extreme care should be exercised\nbefore substituting other than the speciﬁed sizes of rivet diameter.",
+      "word_count": 60
+    },
+    {
+      "id": 31,
+      "type": "section_chunk",
+      "title": "6. Rivet Lengths",
+      "content": "6. Rivet Lengths\nA. Proper length of rivets is an important part of a repair. Should too long arivet be used, the formed\nhead will be too large, or the rivet may bend or be forced between the sheets being riveted. Should\ntoo short a rivet be used, the formed head will be too small or the riveted material will be damaged.\nIf proper length rivets are not available, longer rivets may be cut off to equal the proper length (not\ngrip). Rivet length is based on the grip.",
+      "word_count": 89
+    },
+    {
+      "id": 32,
+      "type": "section_chunk",
+      "title": "7. Solid Shan k Rivets",
+      "content": "7. Solid Shan k Rivets\nA. Removal of Solid Shank Rivets (Refer to Figure 1).\n(1) When it becomes necessary to replace a rivet, extreme care should be taken in its removal so\nthat the rivet hole will retain its original size and replacement with alarger size rivet will not be\nnecessary. If the rivet is not removed properly, the strength of the joint may be weakened and\nthe replacement of rivets made more difﬁcult.\n(2) When remov ing a rivet, work on the manufactured head. It is more symmetrical about the shank\nthan the shop head, and there will be less chance of damaging the rivet hole or the material\naround it. To remove rivets, use hand tools, a power drill or acombination of both. The preferred\nmethod isto drill through the rivet head and drive out the remainder ofthe rivet with a drift punch.\nFirst,ﬁle aﬂat area on the head of any round or brazier head rivet, and center punch theﬂat\nsurface for drilling. On thin metal, back up the rivet on the shop head when center punching\nto avoiddepressing the metal. The dimple in 2117-T3 rivets usually eliminates the necessity of\nﬁling and center punching the rivet.\n(3) Select a drill one size smaller than the rivet shank and drill out the rivet head. When using a\npower drill, set the drill on the rivet and rotate the chuck several revolutions by hand before\nturning on the power. This procedure helps the drill cut a good starting spot and eliminates the\nchance of the drill slipping off and tracking across the metal. While holding the drill at a 90°\nangle, drill the rivet to the depth of its head. Be careful not to drilltoo deep because the rivet\n51-40-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nshank will turn with the drill and cause a tear. The rivet headwill often break away and climb the\ndrill, which is a good signal to withdraw the drill. If the rivet head does not come lose of its own\naccord, insert a drift punch into the hole and twist slightly to eithe...",
+      "word_count": 1879
+    },
+    {
+      "id": 33,
+      "type": "section_chunk",
+      "title": "8. Blind R ivets",
+      "content": "8. Blind R ivets\nA. General.\n(1) Blind rivets are intended for use where access is available to only one side of the work.\n(2) Replacement of solid rivets with blind rivets should only be accomplished within the guidelines\nof Table 1, when the installation of a solid shank rivet is notpossible. Blind rivets do not have the\nsame resistance to corrosion and fatigue as solid shank rivets, and should not be considered a\nuniversal replacement for solid shank rivets.\nB. Removal of Blind Rivets.\nCAUTION: Do not drill completely through the rivet sleeve. This method of removing\na rivetwill tend to enlarge the hole.\n(1) Use a small center drill to provide a guide for a larger drill on top of the rivet stem, and drill away\nthe tapered portion of the stem to destroy the lock.\n(2) Pry the remainder of the locking collar out of the rivet head with a drift punch.\n51-40-00 Page 7\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(3) Drill nearly through the head of the rivet using a drill the same size as the rivet shank.\n(4) Break off rivet head, using drift pin inserted into the drilled hole as a pry.\n(5) Drive out remaining rivet shank with a pin having a diameter equal to the rivet shank.\nC. Installation of Blind Rivets.\n(1) Refer to Figure 2, for an illustration of installation procedures.\n(2) Check that rivet hole size and rivet are compatible.\n(3) Check that proper pulling head is installed on rivet gun.\n(4) Adjustment of pulling head must be made in accordance with manufacturers instructions.\n(5) Check that proper operating air pressure is available to rivet gun.\nNOTE: Blind rivets may be installed using pneumatic or mechanicalguns, whichever is\navailable.\n(6) Check that holes in parts to be fastened are properly aligned.\n(7) In blind clearance applications, check the minimum blind clearance (BK) dimension if the\nmanufactured head of blind rivet is protruding above the topsheet. The rivet will pull down the\nsheet as the st...",
+      "word_count": 839
+    },
+    {
+      "id": 34,
+      "type": "section_chunk",
+      "title": "9. Spacing Of Rivets",
+      "content": "9. Spacing Of Rivets\nA. There are no speciﬁc rules which are applicable to every case or type of riveting. There are, however,\ncertain general rules which should be understood and followed. Edge distance of rivets should not\nbe less than two diameters of the rivet, measured from the edge of the sheet or plate to the center of\nthe rivet hole. Spacing between rivets, when in rows, depends upon several factors, principally the\nthickness of the sheet, the diameter of the rivets, and the manner in which the sheet will be stressed.\nThis spacing is seldom less than four diameters of the rivet,measured between the centers of the rivet\nholes. Rivets, spaced four diameters apart, are found in certain seams ofsemimonocoque fuselages,\nwebs or built up spars, and various plates orﬁttings. Where there are two rows of rivets, they are\nusually staggered. The transverse pitch or distance between rows should be slightly less than the\npitch of therivets, with 75 percent of the rivet pitch being the usual practice. An average spacing or\npitch of rivets in the cover or skin of most structures, except at highly stressed points, will be from 6\nto 12 diameters of the rivet. The best practice in repair is tomake pitch of rivets equal to those in the\noriginal structure.",
+      "word_count": 217
+    },
+    {
+      "id": 35,
+      "type": "section_chunk",
+      "title": "10. Threaded Fasteners Bolt Torques",
+      "content": "10. Threaded Fasteners Bolt Torques\nA. The importance of correct application cannot be overemphasized. Referto appropriate Maintenance\nManual, Chapter 20, Torque Data - Maintenance Practices, for additional information covering torque\nvalues. Under torque can result in unnecessary wear of nuts and bolts as well as parts they are\nholding together. When insufﬁcient pressures are applied, uneven loads will be transmitted throughout\nassembly, which may result in excessive wear or premature failure due to fatigue. Over torque can\nbe equally damaging because of failure of a bolt or nut from overstressing threaded areas. There are\na few simple, but very important, procedures that should be followed toassure that correct torque is\napplied:\n(1) Calibrate torque wrench periodically to assure accuracy, and recheck frequently.\n(2) Be sure that bolt and nut threads are clean and dry unless otherwise speciﬁed.\n(3) Run nut down to near contact with washer or bearing surface and check friction drag torque\nrequired to turn nut.\n(4) Add friction drag torque to desired torque recommended. Refer to appropriate Maintenance\nManual, Chapter 20, Torque Data - Maintenance Practices to obtain complete torque calculating\nprocedures. This is referred to asﬁnal torque which should register on indicator or setting fora\nsnap over-type wrench.\n(5) Apply a smooth even pull when applying torque pressure. If chattering or a jerking motion occurs\nduringﬁnal torque, back off and re-torque.\n(6) When installing a castellated nut, start alignment with cotter pin hole at minimum recommended\ntorque plus friction drag torque, and do not exceed maximum torque plus friction drag. If hole\nand nut castellation do not align, change washers or nut and try again. Exceeding maximum\nrecommen ded torque is not recommended unless speciﬁcally allowed or recommended for that\nparticular installation.",
+      "word_count": 286
+    },
+    {
+      "id": 36,
+      "type": "section_chunk",
+      "title": "11. Rivets for Plastic or Composite Parts",
+      "content": "11. Rivets for Plastic or Composite Parts\nA. Unlike rivets in metallic joints, blind rivets are often the rivet of choice for riveting non-metallic materials\nbecause they may be installed without the hammering necessary to install solid rivets. If the tail end\nof the rivet is adjacent to the non-metal side, install a washer over the shank to prevent the \"hole\nﬁlling\" action built into blind rivets from overloading the non-metal hole. The hole in the washer should\nmatch the speciﬁed installation hole for the fastener. If the tail end of the rivet is installed through\nmetal substructure, the washer is not necessary.\n51-40-00 Page 10\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nRed Lining of Fasteners\nFigure 3 (Sheet 1)\n51-40-00 Page 11\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nB. Soft (\"A\" 1100 aluminum shank rivets or \"B\" 5056 aluminum shank) rivets are also used to install non-\nmetallic parts. Original equipment soft rivets will be either red or green colored under the paint. If the\nbutt or drivenend of the rivet is adjacent to the non-metallic part, it is preferable to install a washer over\nthe shank to prevent the rivet shank, which swells during driving, from overloading the non-metallic\nhole. The hole in the washer should match the speciﬁed installation hole for the fastener. If the tail\nend of the rivet is installed through metal substructure, the washer is notnecessary. Take care when\ndriving rivets through non-metal to not overdrive the rivet. If the rivet is overdriven, the shank will swell\neven with the washer in place. The rivet butt should be drivento no more than necessary to retain\nthe part, never more than 1.4 times the shank diameter.\nC. If the original equipment rivet provided connection between metal parts as well as non-metallic parts,\nit may be a standard (AD) rivet. Original equipment AD rivetsare colored gold or uncolored. Replace\no...",
+      "word_count": 360
+    },
+    {
+      "id": 37,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. This section applies to the balancing of the ailerons, elevators, and rudder. Control surface balance\nmust be veriﬁed after repair or painting.\nB. Proper balance of control surfaces is critical to preventﬂutter during normal operating conditions.",
+      "word_count": 39
+    },
+    {
+      "id": 38,
+      "type": "section_chunk",
+      "title": "2. Tools and Equipment",
+      "content": "2. Tools and Equipment\nNAME NUMBER MANUFACTURER USE\nControl Surface\nBalance Fixture Kit\n5180002–1 Cessna Aircraft Co. Cessna\nPart Distribution\n5800 E. Pawnee\nP.O. Box 1521\nWichita, KS 67218\nBalance elevator and\naileron.\nScale 0-10 Pounds\nin 0.01 Pound\nincrements\nCommercially Available Balance rudde r",
+      "word_count": 45
+    },
+    {
+      "id": 39,
+      "type": "section_chunk",
+      "title": "3. Procedures for Balancing Control Surfaces",
+      "content": "3. Procedures for Balancing Control Surfaces\nA. The ﬂight control surface balancingﬁxture kit (part number 5180002-1) is shown in Figure 1.\n(1) Balance of control surfaces must be accomplished in a draft free room or area.\n(2) Place hinge bolts through control surface hinges and position on knife edge balancing mandrels,\nrefer to Figure 2 for positioning of balancing control surfaces.\n(3) Make sure all control surfaces are in their approvedﬂight conﬁguration; painted (if applicable),\ntrim tabs installed, static wicks, and all tips installed.\n(4) Place balancing mandrels on a table or other suitableﬂat surface.\n(5) Adjust trailing edge support toﬁt control surface being balanced while center of balancing beam\nis directly over hinge line. Remove balancing beam and balance the beam itself by adding\nwashers or nuts required at end opposite the trailing edge support.\n(6) When positioning balancing beam on control surface, avoid rivets to provide a smooth surface\nfor the beam and keep the beam 90 degrees to the hinge line of control surface.\n(7) Paint is a considerable weight factor. In order to keep balance weight to a minimum, it\nis recommended that existing paint be removed before addingpaint to a control surface.\nIncrease in balance weight will also be limited by the amountof space available and clearance\nwith adjacent parts. Good workmanship and standard repair practices should not result in\nunreasonable balance weight.\n(8) The approximate amount of weight needed may be determined by taping loose weight at the\nbalance weight area.\n(9) Lighten balance weight by drilling off part of weight.\n(10) Make balance weight heavier by fusing bar stock solder to weight after removal from control\nsurface. The ailerons should have balance weight increasedby ordering additional weight and\ngang channel, listed in applicable Parts Catalog, and installing next to existing inboard weight\nthe minimum length necessary for correct balance, except that a length which contains at least\ntwo ...",
+      "word_count": 330
+    },
+    {
+      "id": 40,
+      "type": "section_chunk",
+      "title": "4. Balancing De ﬁnitions",
+      "content": "4. Balancing De ﬁnitions\nA. Overbalance (refer to Figure 3) is deﬁned as the condition that exists when surface is leading edge\nheavy and is deﬁned by symbol (-). If the balance beam uses a sliding weight, the weight must be on\nthe trailing edge side of the hinge line (to balance the control surface), the control surface is considered\nto be overbalanced.\n51-60-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFlight Control Surface Balancing Fixture Kit\nFigure 1 (Sheet 1)\n51-60-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nBalancing Control Surfaces\nFigure 2 (Sheet 1)\n51-60-00 Page 3\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nBalancing Control Surfaces\nFigure 2 (Sheet 2)\n51-60-00 Page 4\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nBalancing Control Surfaces\nFigure 2 (Sheet 3)\n51-60-00 Page 5\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nBalancing Control Surfaces\nFigure 2 (Sheet 4)\n51-60-00 Page 6\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nControl Surface Overbalance (-)\nFigure 3\nB. Underbalance (refer to Figure 4) is deﬁned as the condition that exists when surface is trailing edge\nheavy and is deﬁned by symbol (+). If the balance beam uses a sliding weight, the weight must be\non the leading edge side of the hinge line (to balance the control surface), is considered to be under\nbalanced.\nControl Surface Underbalance (+)\nFigure 4",
+      "word_count": 278
+    },
+    {
+      "id": 41,
+      "type": "section_chunk",
+      "title": "5. Control Surface Balance Requirements",
+      "content": "5. Control Surface Balance Requirements\nNOTE: “Approved Flight” must never be exceeded when the surface isin itsﬁnal conﬁguration forﬂight.\nA. Refer to Tables 1, 2 and 3 for balance limits of the various airplane control surfaces. These approved\nﬂight limits must take into account all items which may be attached and/or applied to the various control\nsurfaces (static wicks, trim tabs, paint, decorative trim stripes, and so forth).\nTable 1. Model 172 Static Balance Limits.\nCONTROL SURFACE STATIC BALANCE LIMITS APPROVED FOR FLIGHT\nCONFIGURATION (INCH-LBS).\nAILERON 0.0 TO +11.31\nRUDDER 0.0 TO +9.0\nLEFT ELEVATOR 0.0 TO +18.5\nRIGHT EL EVATOR 0.0 TO +24.5\n51-60-00 Page 7\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTable 2. Model 182 Static Balance Limits.\nCONTROL SURFACE STATIC BALANCE LIMITS APPROVED FOR FLIGHT\nCONFIGURATION (INCH-LBS).\nAILERON 0.0 TO +9.64\nRUDDER 0.0 TO +6.0\nLEFT ELEVATOR 0.0 TO +20.47\nRIGHT ELEVATOR 0.0 TO +20.47\nTable 3. Model 206 Static Balance Limits.\nCONTROL SUR FACE STATIC BALA NCE LIMITS APPROVED FOR FLIGHT\nCONFIGURATION (INCH-LBS).\nAILERON 0.0 TO +3.0\nRUDDER (La ndplane) -4.0 TO +3.0\nLEFT ELEVATOR 0.0 TO +12.1\nRIGHT ELEVATOR 0.0 TO +12.1\n51-60-00 Page 8\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nREPAIRS - GENERAL",
+      "word_count": 217
+    },
+    {
+      "id": 42,
+      "type": "section_chunk",
+      "title": "1. Introduction",
+      "content": "1. Introduction\nA. Many components of the airframe structure are similar in design and fabrication. Examples of such\nitems are sheet metal webs, formed structural shapes and extrusions.\nB. Typical repairs to these and other items have been compiled in this sectionto eliminate the duplication\nof repairs under each applicable component. Repairs in thissection apply to the member shown,\nregardless of location on the airplane structure (except aslimited), and will include only those parts\nor members necessary to show the typical situation.",
+      "word_count": 82
+    },
+    {
+      "id": 43,
+      "type": "section_chunk",
+      "title": "2. Usage",
+      "content": "2. Usage\nA. Typical repairs may be accomplished individually, or combined with otherrepairs for a major repair.\nTechnique and material variation is permissible only so faras to facilitate fabrication and ensure the\noriginal strength and usefulness of the affected component.",
+      "word_count": 40
+    },
+    {
+      "id": 44,
+      "type": "section_chunk",
+      "title": "3. Preparation for Repair",
+      "content": "3. Preparation for Repair\nA. The airplane should be located in an area where, once positioned, minimum movement or relocation\nis required.The airplane should be leveled and supported as necessary. Refer to appropriate\nMaintenance Manual, Chapter 7, Jacking - Maintenance Practices and Chapter 8, Leveling -\nMaintenance Practices.\n51-70-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nRIVETED ALUMINUM STRUCTURE REPAIR",
+      "word_count": 70
+    },
+    {
+      "id": 45,
+      "type": "section_chunk",
+      "title": "1. Preparing Riveted Aluminum Structure For Repair",
+      "content": "1. Preparing Riveted Aluminum Structure For Repair\nA. To prepare an area for repair, examine and classify the damage. Make a thorough check before\nbeginning repairs. In some cases, a damaged part may be classiﬁed as needing replacement;\nhowever, after removal, closer inspection indicates the part may be repaired.\n(1) Remove all ragged edges, dents, tears, cracks, punctures, and similar damages.\n(2) Stop-drill all cracks using a No. 30 (0.128 inch) drill.\n(3) Leave edges, after removal of damaged area, parallel to any square or rectangular edges of the\nunit.\n(4) Round all corners\n(5) Smooth out abrasions and dents\n(6) Deburr all edges of repair and ensure that no nicks or scratches remain\n(7) Brush all aluminum parts having rough edges with a solution of Iridite or alodine mixed in a ratio\nof one ounce of Iridite or alodine to one gallon of water, and rinse thoroughly.\n(8) To restore original paint and corrosion protectant properties to factory standards, refer to\nappropriate Maintenance Manual, Chapter 20, Exterior Finish - Cleaning/Painting for reﬁnishing\nprocedures andrequired materials.\nNOTE: Damage adjacent to a previous repair requires removal of theold repair and inclusion\nof the entire area in the new repair.\n51-71-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nGLASS FABRIC REPAIR",
+      "word_count": 219
+    },
+    {
+      "id": 46,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. The following procedures are for parts which are constructed of epoxy prepreg glass fabric.",
+      "word_count": 17
+    },
+    {
+      "id": 47,
+      "type": "section_chunk",
+      "title": "2. Tools and Mate rials",
+      "content": "2. Tools and Mate rials\nNOTE: Equivalent substitutes may be used for the following:\nNAME NUMBER MANUFACTURER USE\nFiberglass 181 weight Hexcel Repair composite\nstructures.\nPolyethylene sheet Commercially available Cover patches while\ncuring.\nAdhesive EA9394 Loctite Aero space\nBay Point, CA 94565\nAdhesive resin.\nAdhesive EA9396 Loctite Aeros pace Adhesive resin.\nAdhesive Epon 815 Loctite Aerospace Adhesive resin.\nMethyl Propyl Ketone Commercially available Cleaning solvent.\nSandpaper Various grits Commercially available Abrading, smoothing.\nRubber sheet Commercially available Cover patches when\napplying pressure.",
+      "word_count": 81
+    },
+    {
+      "id": 48,
+      "type": "section_chunk",
+      "title": "3. Repair Of Glass Fabric Parts",
+      "content": "3. Repair Of Glass Fabric Parts\nA. The procedures listed below are for repairing of glass fabric parts. Refer to Figure 801 for an illustration\nof a typical glass fabric repair.\n(1) Cut and trim area immediately beyond damage. If parts were painted, remove paint and sand\nclean an area at least 1-1/2 inches larger in diameter than the cut out section.\n(2) Prepare necessary size and number of patches of glass fabric style No. 181.\nWARNING: Always follow manufacturer's mixing instructions carefully to\nensure proper cure and prevent a spontaneousﬁre.\n(3) Mix sufﬁcient amount of resin in accordance with manufacturers instructions.\n(4) Ensure that hands are free from oil, grease, and dirt, andapply an even coat of resin on sanded\narea.\n(5) Impregnate all the glass fabric patches by laying them ona polyethylene sheet and working the\nresin through the glass fabric with a small brush.\n(6) Place larger patch over cutout area, working out all air bubbles and wrinkles.\n(7) If cutout is large enough to cause the patch to sag, place asuitable support behind repair area.\n(8) Apply a second patch over theﬁrst patch, working out all wrinkles and air bubbles.\n(9) After all patches have been applied, brush the area with an even coat of resin and allow to cure.\nCuring time is 24 hours at 77° F.\n(10) Smooth patched area with 600-grit sandpaper until desiredﬁnish is obtained.\n(11) Repaintﬁnished area with matching paint. Refer to the applicable Maintenance Manual, Chapter\n20, Exterior Finish - Cleaning/Painting for painting procedures.\n51-73-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Glass Fiber Panel Repair\nFigure 801 (Sheet 1)\n51-73-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nREPAIR OF THERMO-FORMED THERMO PLASTIC COMPONENTS",
+      "word_count": 305
+    },
+    {
+      "id": 49,
+      "type": "section_chunk",
+      "title": "1. Thermo-formed Thermo Plastic Repair",
+      "content": "1. Thermo-formed Thermo Plastic Repair\nA. Repair of puncture or holes in thermo-formed plastics canbe made by trimming out the damaged\narea, removing any paint in the area, and installing an overlapping, beveled, orﬂush patch of identical\nmaterial. Doublers may be installed behind the patch where additional strength is desired. MPK,\nor any commercially available solvent that will soften and dissolve the plastic, may be used as the\nbonding agent. Dissolving some of the plastic shavings in the solvent will furnish additional working\ntime. Moderate pressure is recommended for best results. Curing time will vary with the agent used,\nbut repairs should not be strained until fully cured. Crackscan be repaired by saturating the crack itself\nwith the solvent, thenﬁlling with an epoxyﬁller or a paste made of the plastic shavings and the solvent.\nAgain, the crack may be reinforced with a doubler on the back side for additional strength. After\nthe repair has been made, the area may be sanded smooth and painted. Parts that are extensively\ndamaged should be replaced instead of repaired.",
+      "word_count": 175
+    },
+    {
+      "id": 50,
+      "type": "section_chunk",
+      "title": "2. Temporary Repairs",
+      "content": "2. Temporary Repairs\nA. Crack Repair\n(1) It is permissible to stop drill crack(s) that originate at the edge of a fairing if the crack is less than\n2 inches (50 mm) in length.\n(a) Stop drill the crack with a Number 30 (0.128 inch diameter) drill bit.\n(b) A crack may be stop drilled only once.\nNOTE: A crack that passes through a fastener hole and does not extend to the edge of\nthe part, may be stop drilled at both ends of the crack.\n(c) Any fairing that has a crack that progresses past a stop drilled hole must be repaired or\nreplaced.\n(d) A fairing that has any of the following conditions must have a repair made as soon as\npractical:\n1\nA crack thatis longer than 2 inches (50 mm).\n2 Cracks in more than 10 percent of the attach fastener locations per fairing.\n(2) Fairings, with a stop drilled crack that does not extend past the stop drilled hole, may remain in\nservice until the next 100 hour or equivalent inspection.\n51-73-01 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTYPICAL SKIN REPAIRS",
+      "word_count": 197
+    },
+    {
+      "id": 51,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Damage which would involve a typical skin repair can be described as damage that requires\nmodiﬁcation, such as material replacement or patching. Skin damage in the form of dents, scratches,\nor punctures requires a patch. Refer to Figure 801, for an illustration of typical skin repairs. Refer to\nFigure 802 for corrugated skin repairs.",
+      "word_count": 57
+    },
+    {
+      "id": 52,
+      "type": "section_chunk",
+      "title": "2. Guidelines for Corrugated Skin Crack Repairs",
+      "content": "2. Guidelines for Corrugated Skin Crack Repairs\nA. Corrugated Aileron Skin Repair:\n(1) It is permissible to stop drill crack(s) that originate at the trailing edge of the control surface\nprovided the crack(s) is(are) not more than 2 inches in length.\n(2) Stop dill crack(s) using a Number 30 (0.128 inch diameter) drill.\n(3) A crack may only be stop dilled once.\nNOTE: A crack that passes through a trailing edge rivet and does notextend to the trailing\nedge of the skin may be stop drilled at both ends of the crack.\n(4) Any control surface that has a crack that progresses pasta stop drilled hole shall be repaired or\nreplaced.\n(5) A control surface that has any of the following conditions shall have a repair made as soon as\npractical:\n(a) A crack that is longer than 2 inches.\n(b) A crack that does not originate from the trailing edge or a trailing edge rivet.\n(c) Cracks in more than six trailing edge rivet locations perskin.\n(6) Affected control surfaces with corrugated skins and having a stop drilled crack that does not\nextend past the stop drilled hole, may remain in service without additional repair.\n(7) Refer to Figure 802 as applicable for repair information.\nB. Corrugated Flap Skin Repair:\n(1) It is permissible to stop drill crack(s) that originate at the trailing edgeof the control surface\nprovided the crack(s) is(are) not more than 2 inches in length.\n(2) Stop dill crack(s) using a Number 30 (0.128 inch diameter) drill.\n(3) A crack may only be stop dilled once.\nNOTE: A crack that passes through a trailing edge rivet and does notextend to the trailing\nedge of the skin may be stop drilled at both ends of the crack.\n(4) Any control surface that has a crack that progresses pasta stop drilled hole shall be repaired or\nreplaced.\n(5) A control surface that has any of the following conditions shall have a repair made as soon as\npractical:\n(a) A crack that islonger than 2 inches.\n(b) A crack that does not originate from the trailing edge or atrailing edge rivet.\n(c) Crack...",
+      "word_count": 786
+    },
+    {
+      "id": 53,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Damage which would involve a control surface repair: After the repair is completed, the control surface\nbalance must be checked as described in Flight Control Surface Balancing. Refer to Figures 801 and\n802 which illustrate typical control surface repairs.\n51-76-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Control Surface Rib Repair\nFigure 801 (Sheet 1)\n51-76-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Control Surface Trailing Edge Repair\nFigure 802 (Sheet 1)\n51-76-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCHAPTER\n52\nDOORS\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF EFFECTIVE PAGES\nCHAPTER-SECTION-SUBJECT PAGE DATE\n52-Title\n52-List of Effective Pages\n52-Record of Temporary Revisions\n52-Table of Contents\n52-00-00 Page 1 Jun 1/2005\n52-10-00 Page 101 Jun 1/2005\n52 - LIST OF EFFECTIVE PAGES Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nMAINTENANCE MANUAL\nRECORD OF TEMPORARY REVISIONS\nTemporary Revision\nNumber Page Number Issue Date By Date Removed By\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCONTENTS\nDOORS - GENERAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . 52-00-00 Page 1\nGeneral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 52-00-00 Page 1\nDOOR DAMAGE CLASSIFICATION . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . 52-10-00 Page 101\nRepairable Damage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . 52-10-00 Page 101\nCONTENTS Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nDOORS - GENERAL",
+      "word_count": 466
+    },
+    {
+      "id": 54,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Chapter 52 describes general repair practices, materials and procedures which are applicable to the\ndoors and door structure.\nB. If questions arise concerning approved repairs or for repairs not shown inthis section, contact Cessna\nPropeller Aircraft Product Support.\n52-00-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nDOOR DAMAGE CLASSIFICATION",
+      "word_count": 62
+    },
+    {
+      "id": 55,
+      "type": "section_chunk",
+      "title": "1. Repairable Dam age",
+      "content": "1. Repairable Dam age\nA. Bonded doors may be repaired by the same methods used for riveted structure. Rivets are a\nsatisfactory substitute for bonded seams on these assemblies. The strength of the bonded seams in\ndoors may be replaced by a single 3/32, 2117-AD rivet per running inch of bond seam. The standard\nrepair procedures outlined in AC43.13-1b are also applicable to bonded doors.\n52-10-00 Page 101\n© Cessna Aircraft Company Jun 1/2005\nCHAPTER\n53\nFUSELAGE\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF EFFECTIVE PAGES\nCHAPTER-SECTION-SUBJECT PAGE DATE\n53-Title\n53-List of Effective Pages\n53-Record of Temporary Revisions\n53-Table of Contents\n53-00-00 Pages 1-3 Jun 1/2005\n53-10-00 Pages 1-2 Jun 1/2005\n53-20-00 Pages 801-805 Jun 1/2005\n53-30-00 Pages 801-806 Jun 1/2005\n53-40-00 Pages 801-803 Jun 1/2005\n53 - LIST OF EFFECTIVE PAGES Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nMAINTENANCE MANUAL\nRECORD OF TEMPORARY REVISIONS\nTemporary Revision\nNumber Page Number Issue Date By Date Removed By\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCONTENTS\nFUSELAGE - GENERAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . 53-00-00 Page 1\nGeneral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 53-00-00 Page 1\nFuselage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 53-00-00 Page 1\nFUSELAGE DAMAGE CLASSIFICATION . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . 53-10-00 Page 1\nGeneral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 53-10-00 Page 1\nNegligible Damage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . ....",
+      "word_count": 1446
+    },
+    {
+      "id": 56,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Chapter 53 describes general repair practices, materials and procedures which are applicable to the\nFuselage and Fuselage Structure. Refer to Figure 1 for illustrations of fuselage stations.\nB. For repairs beyond the scope of this chapter, refer to Chapter 51, Typical Skin Repairs.",
+      "word_count": 46
+    },
+    {
+      "id": 57,
+      "type": "section_chunk",
+      "title": "2. Fuselage",
+      "content": "2. Fuselage\nA. The fuselage is of semimonocoque construction and consists of formed bulkheads, longitudinal\nstringers, reinforcing channels and skin panels.\nB. If questions arise concerning approved repairs or for repairs not shown in this section, contact Cessna\nPropeller Aircraft Product Support.\n53-00-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFuselage Stations\nFigure 1 (Sheet 1)\n53-00-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFuselage Stations\nFigure 1 (Sheet 2)\n53-00-00 Page 3\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFUSELAGE DAMAGE CLASSIFICATION",
+      "word_count": 111
+    },
+    {
+      "id": 58,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Damage to the fuselage can be divided into three major categories; negligible damage, repairable\ndamage, and major replacement damage. The categories are provided to assist in determining the\nextent and criticalness of any damage.",
+      "word_count": 37
+    },
+    {
+      "id": 59,
+      "type": "section_chunk",
+      "title": "2. Negligible Damage",
+      "content": "2. Negligible Damage\nA. Any smooth den ts in the fuselage skin that are free from cracks, abrasions,and sharp corners, and\nwhich are not stress wrinkles and do not interfere with any internal structure or mechanism, may\nbe considered as negligible damage. In areas of low stress intensity, cracks, deep scratches, or\ndeep, sharp dents - which after trimming or stop-drilling can be enclosedby a two-inch circle - can\nbe considered negligible if the damaged area is at least one diameter of the enclosing circle away\nfrom all existing rivet lines and material edges. Stop drilling is considered a temporary repair and a\npermanent repair must be made as soon as practical.\nB. Mild corrosion appearing upon clad aluminum surfaces does not necessarily indicate incipient failure of\nthe base metal. However, corrosion of all types must be carefully considered, and approved remedial\naction taken.\nC. Small cans appear in the skin structure of all metal airplanes and should not necessarily be a cause\nfor concern. However. It is strongly recommended that wrinkles which appear to have originated from\nother sources, or which do not follow the general appearance of the remainder of the skin panels, be\nthoroughly investigated. Except in the landing gear bulkhead areas, wrinkles occurring over stringers\nwhich disappear when the rivet pattern is removed, may be considered negligible. However, the\nstringer rivet holes may not align perfectly with skin holes because ofa permanent \"set\" in the stringer.\nIf this is apparent, replacement of the stringer will usually restore the original strength characteristics\nof the area.\nNOTE: Wrinkles occurring in the skin of the main landing gear bulkhead areas must not be\nconsidered negligible. The skin panel must be opened sufﬁciently to permit a thorough\nexamination of the lower portion of the landing gear bulkhead and its tie-in structure.\nD. Wrinkles occurring in open areas which disappear when therivets at the edge of the sheet are\nremoved, or a wrinkle...",
+      "word_count": 431
+    },
+    {
+      "id": 60,
+      "type": "section_chunk",
+      "title": "3. Repairable Damage",
+      "content": "3. Repairable Damage\nA. If a skin is badly damaged, repair must be made by replacing an entire skin panel, from one structural\nmember to the next. Repair seams must be made to lie along structural members and each seam\nmust be made exactly the same in regard to rivet size, spacingand pattern as the manufactured\nseams atthe edges of the original sheet. If the manufactured seams are different, the stronger must\nbe copied. If the repair ends at a structural member where no seam is used, enough repair panel\nmust be used to allow an extra row of staggered rivets, with sufﬁcient edge margin to be installed.\nB. Typical methods of repair for skins, bulkheads, stringers, and channels are illustrated in Chapter 51,\nTypical Skin Repairs. Before repairs are attempted, all cracks or deep scratches must be stop-drilled\nwith a No. 30 (0.128 inch) drill and all sharp corners and ragged edges must be trimmed away and\ndeburred.\n53-10-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL",
+      "word_count": 177
+    },
+    {
+      "id": 61,
+      "type": "section_chunk",
+      "title": "4. Replacement Damage",
+      "content": "4. Replacement Damage\nA. All forgings and castings of any material and structural parts made of steel must be replaced if\ndamaged. Structural members of a complicated nature that have been distorted or wrenched should\nbe replaced. Seat rails serve as structural parts of the fuselage and must be replaced if damaged.\n53-10-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCABIN BULKHEAD REPAIR",
+      "word_count": 73
+    },
+    {
+      "id": 62,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Bulkheads are comprised of formed \"C\" channel sections. The principal material of construction\nis 2024-0 Alclad aluminum alloy which, after forming, is heat-treated to a 2024-T42 condition. All\nbulkheads in the fuselage are of the formed sheet metal or the reinforced formed sheet metal type.",
+      "word_count": 48
+    },
+    {
+      "id": 63,
+      "type": "section_chunk",
+      "title": "2. Repair of Webs or Flanges",
+      "content": "2. Repair of Webs or Flanges\nA. The followingprocedures are for the repair of cracked bulkhead webs orﬂanges.\n(1) Acceptable methods of repairing various types of cracksoccurring in service are shown in\nFigures 801 and 802.\n(2) Stop-drill No. 30 (0.128 inch) minimum holes at extreme ends of cracks to prevent further\ncracking.\n(3) Reinforcements should be added to carry stresses acrossdamaged portion and stiffen the joints.\nNOTE: The condition causing such cracks to develop at a particularpoint may be stress\nconcentration at that point, in conjunction with repetition of stress (such as produced\nby vibration of the structure). The stress concentration may be due to defects such\nas nicks, scratches, tool marks, and initial stresses or cracks from forming or heat-\ntreating operations. An increase in sheet thickness alone is usually beneﬁcial but\ndoes not necessarily remedy the condition leading to the cracking. Patch-type repairs\nare generally employed and are usually satisfactory in restoring the original material\nstrength characteristics.",
+      "word_count": 160
+    },
+    {
+      "id": 64,
+      "type": "section_chunk",
+      "title": "3. Repair of Channels",
+      "content": "3. Repair of Channels\nA. The following procedures are for the repair of severely bent, kinked, or torn channels.\n(1) If practical, severely bent, kinked, or torn portions of bulkheads should be removed and\nreplacement sections installed and joined at the original splice joint.\n(2) If the procedure outlined in the preceding step is not justiﬁed, cutting away the damaged portion\nand inserting a trimmed portion of the original section, adequately reinforced by splice plates or\ndoublers, will prove satisfactory. This is knownas an insertion-type patch.",
+      "word_count": 86
+    },
+    {
+      "id": 65,
+      "type": "section_chunk",
+      "title": "4. Landing Gea r Bulkheads",
+      "content": "4. Landing Gea r Bulkheads\nA. Landing gear bulkheads are highly stressed members, irregularly formed to provide clearance for\ncontrol cables, fuel and brake lines. Patch type repairs on these bulkheads are, for the most part,\nimpractical. Minor damage, consisting of small nicks or scratches, maybe repaired by dressing out\nthe damaged area, or by replacement of fasteners. Any other damage must be repaired by replacing\nthe landing gear support assembly as an aligned unit.",
+      "word_count": 75
+    },
+    {
+      "id": 66,
+      "type": "section_chunk",
+      "title": "5. Repair After Hard Landing",
+      "content": "5. Repair After Hard Landing\nA. Buckled skin orﬂoor boards, and loose or sheared rivets in the area of the maingear support are\nindications of damage to structure from an extremely hard landing. Whensuch evidence is present,\nthe entire support structure must be examined and all support forgings must be checked for cracks.\n(1) Use ﬂuorescent dye penetrant and magniﬁcation to examine for cracks.\nB. Bulkheads in the damaged area must be checked for alignment. Deformation of bulkhead webs must\nbe checked using a straightedge.\nC. Damaged support structure, buckledﬂoorboards and skins, and damaged or questionable forgings\nmust be replaced.\n53-20-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Cabin Bulkhead Repair\nFigure 801 (Sheet 1)\n53-20-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Cabin Bulkhead Repair\nFigure 801 (Sheet 2)\n53-20-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Cabin Bulkhead Repair\nFigure 801 (Sheet 3)\n53-20-00 Page 804\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Rib Repair\nFigure 802 (Sheet 1)\n53-20-00 Page 805\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nSTRINGER AND CHANNEL REPAIR",
+      "word_count": 225
+    },
+    {
+      "id": 67,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Damage to the stringers or channels can be repairable. Refer to Figure 801 for an illustration of typical\nstringer and channel repairs.\n53-30-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Stringer and Channel Repair\nFigure 801 (Sheet 1)\n53-30-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Stringer and Channel Repair\nFigure 801 (Sheet 2)\n53-30-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Stringer and Channel Repair\nFigure 801 (Sheet 3)\n53-30-00 Page 804\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Stringer and Channel Repair\nFigure 801 (Sheet 4)\n53-30-00 Page 805\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Stringer and Channel Repair\nFigure 801 (Sheet 5)\n53-30-00 Page 806\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFIREWALL REPAIR",
+      "word_count": 180
+    },
+    {
+      "id": 68,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. The ﬁrewall is constructed of 0.016 inch, 18-8 corrosion resistant, annealed stainless steel sheet.\n(1) A typicalﬁrewall patch is illustrated in Figure 801.\n(2) A typical repair to the interiorﬁrewall angle is illustrated in Figure 802.",
+      "word_count": 39
+    },
+    {
+      "id": 69,
+      "type": "section_chunk",
+      "title": "2. Material",
+      "content": "2. Material\nNAME NUMBER MANUFACTURER USE\nFirewall Sealant\nAMS 3374\nPro-Seal #700-A Loctite Aerospace\nBay Point, CA 94565\nFirewall sealant",
+      "word_count": 20
+    },
+    {
+      "id": 70,
+      "type": "section_chunk",
+      "title": "3. Repairing the Firewall Assembly",
+      "content": "3. Repairing the Firewall Assembly\nA. Firewall sheets may be repaired by removing damaged material and splicing in a new section. The\nsplice must be lapped over the old material, sealed and secured with steelrivets.\n(1) Patches, splices and joints must be repaired using MS20450 steel rivets.\nB. Following any repair to theﬁrewall assembly, seal the damaged areas as follows:\n(1) Clean area onsurface to be sealed with methyl propyl ketone.\n(2) Mix one part of catalyst thoroughly with 100 parts of Pro-Seal No. 700 base.\nNOTE: Sealant should be mixed by weight. It is important that accelerator be completely and\nuniformly dispersed throughout the base compound.\n(3) Using a spatula, caulking gun, orﬂow gun, apply aﬁllet of sealer along cracks, seams, joints,\nand rows of rivets.\nNOTE: If the sealant is applied before the parts are mated, use enough sealing compound\nto completelyﬁll the joint, and wipe away excess after parts are mated.\nNOTE: If the sealant is applied with a brush or a brushﬂow gun, more than one coat of sealant\nwill be necessary on very porous material. Sealant should beallowed to air-dry 10\nminutes between coats.\n53-40-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Firewall Repair\nFigure 801 (Sheet 1)\n53-40-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFirewall Angle Repair\nFigure 802 (Sheet 1)\n53-40-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCHAPTER\n55\nST ABILIZERS\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF EFFECTIVE PAGES\nCHAPTER-SECTION-SUBJECT PAGE DATE\n55-Title\n55-List of Effective Pages\n55-Record of Temporary Revisions\n55-Table of Contents\n55-00-00 Page 1 Jun 1/2005\n55-10-00 Page 801 Jun 1/2005\n55-20-00 Page 801 Jun 1/2005\n55-30-00 Page 801 Jun 1/2005\n55-40-00 Page 801 Jun 1/2005\n55 - LIST OF EFFECTIVE PAGES Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPA...",
+      "word_count": 1808
+    },
+    {
+      "id": 71,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Chapter 55 describes general repair practices, materials and procedures which are applicable to the\nHorizontal and Vertical Stabilizers.\nB. The horizontal and vertical stabilizers are of all metal, fully cantilever, semimonocoque design,\nconsisting of spars, stringers, ribs, and skins. Skins are riveted to supporting structure with\nconventional MS20470AD rivets.\nC. If questions arise concerning approved repairs or for repairs not shown inthis section, contact Cessna\nPropeller Aircraft Product Support.\n55-00-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nHORIZONTAL STABILIZER",
+      "word_count": 92
+    },
+    {
+      "id": 72,
+      "type": "section_chunk",
+      "title": "1. Horizontal Stabilizer",
+      "content": "1. Horizontal Stabilizer\nA. The horizontal stabilizer is constructed from spars, ribs, stringers, doublers and skins. Refer to\napplicable Maintenance Manual, Chapter 6, Dimensions and Areas, for horizontal stabilizer station\ndiagram.",
+      "word_count": 31
+    },
+    {
+      "id": 73,
+      "type": "section_chunk",
+      "title": "2. Negligible Damage",
+      "content": "2. Negligible Damage\nA. The same criteria which is used to deﬁne \"negligible damage\" to the fuselage may be applied to the\nhorizontal stabilizer. Refer to Chapter 53, Fuselage Damage Classiﬁcation for a complete description\nof negligible damage.",
+      "word_count": 38
+    },
+    {
+      "id": 74,
+      "type": "section_chunk",
+      "title": "3. Repairable Damage",
+      "content": "3. Repairable Damage\nA. Skin patches may be used to repair skin damage. These patches are illustrated in Chapter 51, Typical\nSkin Repairs,Figure 801. For skin damage which includes corrugations, Refer to Chapter 51, Typical\nSkin Repairs, Figure 802.\nB. Access to the internal stabilizer structure may be gainedby removing a portion of the rivets along the\nrear spar andribs and springing back the skin. By using the proper buckingbars through holes in\nspar web, skins may by closed with a minimum of blind rivets.",
+      "word_count": 85
+    },
+    {
+      "id": 75,
+      "type": "section_chunk",
+      "title": "4. Replacement Damage",
+      "content": "4. Replacement Damage\nA. If the damaged area would require a repair which could not be made between adjacent ribs, or the\nrepair would be located in an area with compound curves, compete skin panels must be replaced.\nRibs and spars may be repaired, but replacement is generally preferable. Where damage is extensive,\nreplacement of the entire assembly is recommended.\n55-10-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nELEVATOR",
+      "word_count": 79
+    },
+    {
+      "id": 76,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. The elevator assembly consists of a left and right sectionbolted together near the airplane centerline\nby torque tubes. Each section consists of a front and a rear spar, ribs, skins, and a trim tab assembly.\nA balance weight is bolted to the outboard tip leading edge.",
+      "word_count": 49
+    },
+    {
+      "id": 77,
+      "type": "section_chunk",
+      "title": "2. Negligible Damage",
+      "content": "2. Negligible Damage\nA. Any smooth skin dents that are free from cracks, abrasions, and sharp corners, and which are not\nstress wrinkles and do not interfere with any internal structure or mechanism, may be considered\nas negligible damage. Exception to negligible damage on elevator surfaces is the front spar, cracks\nappearing inweb of hingeﬁtting or in tip rib which supports overhanging balance weight. Cracks\nin overhanging tip rib, in the area at the front spar intersection with web of the rib, also cannot be\nconsidered negligible.",
+      "word_count": 87
+    },
+    {
+      "id": 78,
+      "type": "section_chunk",
+      "title": "3. Repairable Damage",
+      "content": "3. Repairable Damage\nA. Skin patches may be used to repair skin damage. These patches are illustrated in Chapter 51, Typical\nSkin Repairs, Figure 801. For skin damage which includes corrugations, refer to Chapter 51, Typical\nSkin Repairs, Figure 802.\nB. Flight control surfaces must be balanced after repair or painting, in accordance with balancing\nproceduresoutlined in Chapter 51, Flight Control Surface Balancing.",
+      "word_count": 63
+    },
+    {
+      "id": 79,
+      "type": "section_chunk",
+      "title": "4. Replacement Damage",
+      "content": "4. Replacement Damage\nA. Warped and c racked skin, ribs, and hinge brackets are replaceable items. Where damage is\nextensive, replacement of the entire assembly is recommended.\n55-20-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nVERTICAL STABILIZER",
+      "word_count": 47
+    },
+    {
+      "id": 80,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. The vertical stabilizer is of conventional aluminum construction utilizing spars, ribs, and skins.",
+      "word_count": 16
+    },
+    {
+      "id": 81,
+      "type": "section_chunk",
+      "title": "2. Vertical Stabilizer and Dorsal",
+      "content": "2. Vertical Stabilizer and Dorsal\nA. The vertical stabilizer and dorsal are constructed jointly to form a single unit.",
+      "word_count": 19
+    },
+    {
+      "id": 82,
+      "type": "section_chunk",
+      "title": "3. Negligible Damage",
+      "content": "3. Negligible Damage\nA. The same criteria which is used to deﬁne \"negligible damage\" to the fuselage may be applied to the\nvertical stabilizer. Refer to Chapter 53, Fuselage Damage Classiﬁcation for a complete description of\nnegligible damage.",
+      "word_count": 38
+    },
+    {
+      "id": 83,
+      "type": "section_chunk",
+      "title": "4. Repairable Damage",
+      "content": "4. Repairable Damage\nA. Skin damage ex ceeding that considered negligible that can be repaired as illustrated in Chapter 51,\nTypical Skin Repairs, Figure 801. For skin damage which includes corrugations, Refer to Chapter\n51, Typical Skin Repairs, Figure 802. Access to the internalﬁn structure is best gained by removing\nskin attaching rivets on one side of the rear spar and ribs, and springing back the skin. Access to the\nstabilizer may be gained by removing skin attaching rivets on one side and springing back the skin. If\nthe damaged area would require a repair which could not be made between adjacent ribs, or a repair\nwould be located in an area with compound curves, replacement of parts is recommended.",
+      "word_count": 120
+    },
+    {
+      "id": 84,
+      "type": "section_chunk",
+      "title": "5. Replacement Damage",
+      "content": "5. Replacement Damage\nA. Hinge brackets and small ribs should be replaced rather than repaired. Ingeneral, where parts are\navailable, the easiest and most satisfactory repairs can beaccomplished by replacing the damaged\nparts.\nB. If the damaged area would require a repair which would not be made between adjacent ribs, or the\nrepair would be located in an area with compound curves, complete skin panels must be replaced.\nRibs and spars may be repaired, but replacement is generallypreferable. Where damage is extensive,\nreplacement of the entire assembly is recommended.\n55-30-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nRUDDER",
+      "word_count": 108
+    },
+    {
+      "id": 85,
+      "type": "section_chunk",
+      "title": "1. Rudder",
+      "content": "1. Rudder\nA. The rudder is constructed of a spar, ribs, and skin. A torque tube, incorporating a lower hinge bracket,\nis attached to the lower leading edge. A balance weight is bolted to the upper tip leading edge.",
+      "word_count": 39
+    },
+    {
+      "id": 86,
+      "type": "section_chunk",
+      "title": "2. Negligible Damage",
+      "content": "2. Negligible Damage\nA. Minor skin dents and nicks are considered negligible and should be worked out by burnishing.",
+      "word_count": 19
+    },
+    {
+      "id": 87,
+      "type": "section_chunk",
+      "title": "3. Repairable Damage",
+      "content": "3. Repairable Damage\nA. Skin damage exceeding that considered negligible damage, can be repaired by patching. Typical\nrepairs are illustrated in Chapter 51, Typical Skin Repair and Control Surface Repair.\nB. A ﬂight control surface which has been repaired or replaced must be balanced in accordance with the\nprocedures outlined in Chapter 51, Flight Control Surface Balancing.",
+      "word_count": 57
+    },
+    {
+      "id": 88,
+      "type": "section_chunk",
+      "title": "4. Replacement Damage",
+      "content": "4. Replacement Damage\nA. Assemblies that have been twisted or warped beyond usablelimits and parts with extensive corrosion\ndamage are considered replaceable. Small parts which may be easily fabricated from materials\navailable locally should be replaced.\n55-40-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCHAPTER\n56\nWINDOWS\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF EFFECTIVE PAGES\nCHAPTER-SECTION-SUBJECT PAGE DATE\n56-Title\n56-List of Effective Pages\n56-Record of Temporary Revisions\n56-Table of Contents\n56-00-00 Page 1 Jun 1/2005\n56-10-00 Pages 801-804 Jun 1/2005\n56 - LIST OF EFFECTIVE PAGES Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nMAINTENANCE MANUAL\nRECORD OF TEMPORARY REVISIONS\nTemporary Revision\nNumber Page Number Issue Date By Date Removed By\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCONTENTS\nWINDOWS - GENERAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . 56-00-00 Page 1\nGeneral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 56-00-00 Page 1\nPLASTIC WINDOW SURFACE REPAIR . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . 56-10-00 Page 801\nRepair of Plastic Window Surfaces . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . 56-10-00 Page 801\nTools and Materials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . 56-10-00 Page 801\nStop-Drilling . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . 56-10-00 Page 801\nSurface Patch . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . 56-10-00 Page 801\nInsert (Plug) Patch . . . . . . . . . . . . . . . . . . . . . ....",
+      "word_count": 774
+    },
+    {
+      "id": 89,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. This chapter provides repair information applicable to windshields and windows used on the 1996\nand On single engine airplanes. These repairs may be utilized without removing components from\nthe airplane.\nB. For windshield/window removal or replacement, refer to the various model Maintenance Manuals,\nChapter 56 - Windows.\n56-00-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nPLASTIC WINDOW SURFACE REPAIR",
+      "word_count": 72
+    },
+    {
+      "id": 90,
+      "type": "section_chunk",
+      "title": "1. Repair of Plastic Window Surfaces",
+      "content": "1. Repair of Plastic Window Surfaces\nA. Damaged window panels and the windshield on the airplane are normally removed and replaced\nif the damage is extensive. However, certain repairs as described in the following paragraphs can\nbe accomplished without removing the damaged part from the airplane. Three types of temporary\nrepairs for cracked plastic are possible. No repairs of any kind are recommended on highly stressed\nor compound curves or where the repair would be likely to affect the pilots or copilot'sﬁeld of vision\nduring normalﬂight or landing operations. Curved areas are more difﬁcult to repair thanﬂat areas,\nand any repaired area is both structurally and optically inferior to the original surface. Refer to Figure\n801 for an illustration of typical windshield and window repair.\nNOTE: If temporary repairs are made, operations should be kept to aminimum until replacement\nof window can be made.",
+      "word_count": 144
+    },
+    {
+      "id": 91,
+      "type": "section_chunk",
+      "title": "2. Tools and Materials",
+      "content": "2. Tools and Materials\nNAME NUMBER MANUFACTURER USE\nNovus 1 Novus Co.\nMinneapolis, MN 55435\nTo polish scratches\nout of windows.\nNovus 2 Novus Co. To polish scratches\nout of windows.\nMethylene Chloride Commercially Available Solvent for rep air of\nwindows.",
+      "word_count": 41
+    },
+    {
+      "id": 92,
+      "type": "section_chunk",
+      "title": "3. Stop-Drilling",
+      "content": "3. Stop-Drilling\nA. The following procedure should be used when stop-drilling.\n(1) When a crack appears in a panel, drill a hole at the end of the crack to prevent further spreading.\nThe hole should be approximately 1/8 inch in diameter, depending on the length of the crack and\nthe thickness of the material. This is a temporary repair.\nNOTE: If temporary repairs are made, operations should be kept to aminimum until\nreplacement of window or windshield can be made.",
+      "word_count": 80
+    },
+    {
+      "id": 93,
+      "type": "section_chunk",
+      "title": "4. Surface Patch",
+      "content": "4. Surface Patch\nA. The following procedure should be used when preparing a surface patch.\n(1) Trim away damaged area and round all corners.\n(2) Cut a piece of plastic of sufﬁcient size to cover the damaged area and extend ¾ inch on each\nside of crack or hole.\n(3) Bevel edges as shown in Figure 801.\nNOTE: If section to be repaired is curved, shape surface patch to the same contour by\nheating it in an oil bath at a temperature of 248° F to 302° F, orit may be heated on a\nhotplate until soft. Boiling water should not be used for heating.\n(4) Coat surfaces to be bonded evenly with plastic solvent adhesive (acrylic chips dissolved in\nmethylene chloride) and place immediately over the hole.\n(5) Maintain a uniform pressure of 5 to 10 pounds per square inch on the surface patch for a\nminimum of 3 hours. Allow surface to dry 24 to 36 hours before sanding or polishing is attempted.",
+      "word_count": 165
+    },
+    {
+      "id": 94,
+      "type": "section_chunk",
+      "title": "5. Insert (Plug) Patch",
+      "content": "5. Insert (Plug) Patch\nA. The following procedure should be used when preparing a plug patch.\n(1) Trim hole to a perfect circle or oval and bevel edges slightly.\n56-10-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Windshield and Windows Repair\nFigure 801 (Sheet 1)\n56-10-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Windshield and Windows Repair\nFigure 801 (Sheet 2)\n56-10-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(2) Make plug patch slightly thicker than the material beingrepaired, and similarly bevel the edges.\n(3) Install plug patch as illustrated in Figure 801.\n(4) Heat plug patchuntil it is soft, press into the hole without plastic solventadhesive, and allow to\ncool to make a perfectﬁt.\n(5) Remove plug patch, coat surfaces to be bonded with plastic solvent (acrylic chips dissolved in\nmethylene chloride), and insert plug patch in the hole.\n(6) Maintain aﬁrm, light pressure until the plastic solvent adhesive has set.\n(7) Sand orﬁle edges level with surface; buff and polish. Do not attempt hand polishing until surface\nis clean. A soft, open-type cotton wheel is suggested.\nNOTE: Acrylic and cellulose plastics are thermoplastic. Friction created by bufﬁng or\npolishing fortoo long a time in one spot can generate sufﬁcient heat to soften the\nsurface. This will produce visual distortion and is to be guarded against.",
+      "word_count": 249
+    },
+    {
+      "id": 95,
+      "type": "section_chunk",
+      "title": "6. Minor Scratch es",
+      "content": "6. Minor Scratch es\nA. The following procedure should be used when repairing minor scratches.\n(1) Remove minor scratches by vigorously rubbing the affected area by hand, using a soft, clean\ncloth dampened with Novus 2 plastic polish, andﬁnish by polishing with Novus 1. Remove polish\nwith a soft dry cloth.\nNOTE: Plastics should not be rubbed with a dry cloth, since this is likely to causescratches,\nand also builds up an electrostatic charge which attracts dust particles to the surface.\nIf, after removing dirt and grease, no great amount of scratching is visible,ﬁnish the\nplastic witha good grade of commercial wax. Apply the wax in a thin, even coat, and\nbring to a high polish by rubbing lightly with a soft cloth.",
+      "word_count": 123
+    },
+    {
+      "id": 96,
+      "type": "section_chunk",
+      "title": "7. Cleaning Pla stic",
+      "content": "7. Cleaning Pla stic\nA. The following procedure is the recommended method for cleaning plastic windows.\n(1) Clean the plastic by washing with plenty of water and mildsoap, using a clean, soft, grit free\ncloth, sponge, or bare hands.\nCAUTION: Do not use gasoline, alcohol, benzene, acetone, carbon tetrachloride,\nﬁre extinguisher or deicingﬂuids, lacquer thinners, or window cleaning\nsprays because they will soften the plastic and cause crazing.\n56-10-00 Page 804\n© Cessna Aircraft Company Jun 1/2005\nCHAPTER\n57\nWINGS\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF EFFECTIVE PAGES\nCHAPTER-SECTION-SUBJECT PAGE DATE\n57-Title\n57-List of Effective Pages\n57-Record of Temporary Revisions\n57-Table of Contents\n57-00-00 Pages 1-4 Jun 1/2005\n57-10-00 Pages 1-4 Jun 1/2005\n57-11-00 Pages 801-802 Jun 1/2005\n57-12-00 Pages 801-803 Jun 1/2005\n57-20-00 Pages 801-803 Jun 1/2005\n57-21-00 Pages 801-805 Jun 1/2005\n57-22-00 Pages 601-606 Jun 1/2005\n57-23-00 Page 801 Jun 1/2005\n57-24-00 Pages 801-802 Jun 1/2005\n57-25-00 Pages 801-802 Jun 1/2005\n57-26-00 Pages 801-802 Jun 1/2005\n57-27-00 Pages 801-802 Jun 1/2005\n57-40-00 Page 801 Jun 1/2005\n57-50-00 Page 801 Jun 1/2005\n57 - LIST OF EFFECTIVE PAGES Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nMAINTENANCE MANUAL\nRECORD OF TEMPORARY REVISIONS\nTemporary Revision\nNumber Page Number Issue Date By Date Removed By\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCONTENTS\nWINGS - GENERAL. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 57-00-00 Page 1\nGeneral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 57-00-00 Page 1\nTools, Equipment and Materials . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . 57-00-00 Page 1\nInstallation of Access Holes . . . . . . . . . . . . . . . . . . . . . . ....",
+      "word_count": 4104
+    },
+    {
+      "id": 97,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Description of Wing Assemblies:\n(1) The wing assemblies are a semicantilever type, employing semimonocoque type of structure.\n(2) The internal structure consists of a built-up front spar, a formed inboard front fuel spar, a rear\nspar, and a formed auxiliary spar assembly in the aileron attach area.\n(3) Ribs are formed sheet metal, and consist of nose, intermediate and trailing edge assemblies.\n(4) On the 172 series airplanes, stressed skin is riveted to the rib and spar assemblies to complete\nthe rigid structure. On 182 and 206 series airplanes, the skin is bonded to the leading edge ribs\nand riveted at other locations.\n(5) The inboard section of the wing is sealed to form an integral fuel cell. The sealed area runs from\nthe wing root outboard toward the strut attach; and from the front fuel spar to the rear spar.\nNOTE: On the 172 series airplanes, the fuel closeout rib is located approximately 7 inches\noutboard from the wing root.\n(6) Access openings (hand holes with removable cover plates) are located in the wing These\nopenings afford access toﬂap and aileron bellcranks and control systems, theﬂap actuator\nin the left hand wing, electrical wiring and wiring disconnect points, the wing portion of the\nventilationsystem, strut attachﬁttings, and the inside of the fuel cell.\nB. Refer to applicable Maintenance Manual, Chapter 6, Dimensions and Areas, for wing station\ndiagrams.\nC. If questionsarise concerning approved repairs, or for repairs not shownin this section, contact Cessna\nPropeller Aircraft Product Support, Box 7706, Wichita, KS 67277. (316) 517-5800, Facsimile (316)\n942-9006.",
+      "word_count": 261
+    },
+    {
+      "id": 98,
+      "type": "section_chunk",
+      "title": "2. Tools, Equipment and Materials",
+      "content": "2. Tools, Equipment and Materials\nA. Refer to Figure 1 for an illustration of wing and fuselage support stands which may by fabricated locally\nand used during structural repair.",
+      "word_count": 29
+    },
+    {
+      "id": 99,
+      "type": "section_chunk",
+      "title": "3. Installation of Access Holes",
+      "content": "3. Installation of Access Holes\nNOTE: In some instances, it may be advantageous to create access holes in the wing skin to facilitate\nwing repair. Refer to the following steps and Figure 2 for an illustration of access holes.\nWARNING: The following procedures are not applicable to theintegral fuel cell\nskins.\nA. Precautions and Notes.\n(1) Add the minimum number of access holes necessary.\n(2) Any circular or rectangular access hole which is used with approved optional equipment\ninstallations may be added in lieu of the access hole illustrated.\n(3) Do not add access holes at outboard end of wing: remove wing tip instead.\n(4) Locate new access holes near the center of a bay (spanwise).\n(5) Locate new access holes forward of the front spars as close to the front spar as practical.\n(6) Locate new access holes aft of the front spar between theﬁrst and second stringers aft of the\nspar. When installing the doubler, rotate it so the two straight edges are closest to the stringers.\n(7) Alternate bays, with new access holes staggered forwardand aft of the front spar, are preferable.\n(8) A maximum of ﬁve new access holes in each wing is permissible. If more are required, contact\nCessna Propeller Aircraft Product Support.\nB. Access Hole Installation. (Refer to Figure 2)\n(1) Establish exact location for inspection cover and inscribe centerlines.\n(2) Determine position of doubler on wing skin and center over centerlines. Mark the ten rivet hole\nlocations and drill to size shown.\n57-00-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(3) Cut out access hole, using dimension shown.\n(4) Flex doubler and insert through access hole, and rivet inplace.\n(5) Position coverand secure, using screws as shown.\n57-00-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWing and Fuselage Support Stands\nFigure 1 (Sheet 1)\n57-00-00 Page 3\n© Cessna Aircraft Company Jun 1/2005\nCES...",
+      "word_count": 367
+    },
+    {
+      "id": 100,
+      "type": "section_chunk",
+      "title": "1. Damage Classi ﬁcation",
+      "content": "1. Damage Classi ﬁcation\nA. Damage to the wing and its component assemblies can be divided into three major categories:\nnegligible damage, repairable damage, and damage necessitating replacement of parts. These\ncategories are intended to provide the mechanic with some general guidelines to use in determining\nthe extent and criticalness of any damage. Obviously, therewill be some overlapping between\ncategories, and common sense should be used in determining the ﬁnal action to be taken with regard\nto any damage.\nB. For an illustration of various wing component repairs, refer to applicable sections within this chapter.",
+      "word_count": 95
+    },
+    {
+      "id": 101,
+      "type": "section_chunk",
+      "title": "2. Wing Skin Dam age Criteria",
+      "content": "2. Wing Skin Dam age Criteria\nA. Negligible damage: Any smooth dents in the wing skin that are not more than 0.030 inch below\ncontour and can be circumscribed with a 2 inch diameter circle that have no evidence of skin tears,\ncracks, or skin penetrations - which are not stress wrinkles and do not interfere with internal structure\nof mechanism - constitute negligible damage; and rework is considered cosmetic.\nB. Repairable damage: Dents or dings deeper and/or larger than speciﬁed above must be repaired.\nSkin tears, cracks or penetrations must be repaired. Dings that include understructure (ribs, frames\nand spars) must be repaired by reforming or removal and replacement of the damaged member or\ndamaged are. Reevaluation of the skin after repair of the understructure will determine if the skin\ndamage is negligible, repairable or requires replacement.\nC. Damage Necessitating Replacement Of Parts: If a skin is badly damaged, repair must be made by\nreplacing an entire skin panel from one structural member tothe next. Repair seams must be made\nto lie alongstructural members and each seam must be made exactly the same in regard to rivet size,\nspacing and pattern as the manufactured seams at the edges ofthe original sheet. If the manufactured\nseams are different, the stronger must be copied. If the repair ends at a structural member where\nno seam is used, enough repair panel must be used to allow an extra row of staggered rivets, with\nsufﬁcient edge margin, to be installed.",
+      "word_count": 247
+    },
+    {
+      "id": 102,
+      "type": "section_chunk",
+      "title": "3. Wing Strin ger Damage Criteria",
+      "content": "3. Wing Strin ger Damage Criteria\nA. Negligible Damage: Minor Scratches or abrasions are the only form of damage considered negligible\nto wing stringers.\nB. Repairable damage: Dents or bends in a stringer may be repaired by reforming or by replacing a\nsection of the stringer. Since aluminum work hardens, it is much more likely to crack when reformed\nand should be carefully inspected for such cracks after rework. Removal and replacement of damaged\nstringers is preferred to reformation.\nC. Damage Necessitating Replacement Of Parts: If a stringeris so badly damaged that more than one\nsection must be spliced, replacement is recommended.",
+      "word_count": 102
+    },
+    {
+      "id": 103,
+      "type": "section_chunk",
+      "title": "4. Wing Auxiliary Spar Damage Criteria",
+      "content": "4. Wing Auxiliary Spar Damage Criteria\nA. Negligible damage: Minor scratches or abrasions are the only form of damage considered negligible\nto wing auxiliary spars.\nB. Repairable damage: Dents or bends in an auxiliary spar maybe repaired by reforming or by replacing\na section of the auxiliary spar. Since aluminum work hardens, it is much more likely to crack when\nreformedand should be carefully inspected for such cracks after rework. Removal and replacement\nof a damaged section to the auxiliary spar is preferred to reformation.\nC. Damage necessitating Replacement Of Parts: If damage to an auxiliary spar would require a repair\nwhich could not be made between adjacent ribs, the auxiliary spar must be replaced.",
+      "word_count": 115
+    },
+    {
+      "id": 104,
+      "type": "section_chunk",
+      "title": "5. Wing Rib Damage Criteria",
+      "content": "5. Wing Rib Damage Criteria\nA. Negligible damage: None, other than minor scratches or abrasions.\n57-10-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nB. Repairable damage: Dents or bends in a rib may be repaired by reforming or by replacing a section\nof the rib. Since aluminum work hardens, it is much more likely to crack when reformed and should\nbe carefully inspected for such cracks after rework. Removal and replacement of a damaged section\nto the rib is preferred to reformation.\nC. Damage Necessitating Replacement Of Parts: Leading and trailing edge ribs that are extensively\ndamaged can be replaced. However, due to the necessity of unfastening an excessive amount of\nskin in order to replace the rib, they should be repaired if practical. Center ribs, between the front and\nrear spar, should always be repaired if practical.",
+      "word_count": 148
+    },
+    {
+      "id": 105,
+      "type": "section_chunk",
+      "title": "6. Wing Spar Damage Criteria",
+      "content": "6. Wing Spar Damage Criteria\nA. Negligible damage: Due to the stress which wing spars encounter, very little damage can be\nconsidered negligible. All cracks, stress wrinkles, deep scratches, and sharp dents must be repaired.\nSmooth dents, light scratches and abrasions may be considered negligible.\nB. Repairable damage: While it is possible to repair the sparchannel by reforming a section of the spar,\nreplacementis preferred. A service kit (SK172-68) is available for replacement of the inboard end of\nthe rear spar for damage that typically occurs with impact onthe outboard leading edge.\nC. Damage Necessitating Replacement of Parts: Damage so extensive that repair is not practical\nrequires replacement of complete wing spar.",
+      "word_count": 112
+    },
+    {
+      "id": 106,
+      "type": "section_chunk",
+      "title": "7. Wing Fuel Bay Spars/Rib Damage Criteria",
+      "content": "7. Wing Fuel Bay Spars/Rib Damage Criteria\nA. Negligibledamage: Any smooth dents in the wing fuel spar and ribs that have no evidence of tears,\ncracks or penetrations - which are not stress wrinkles and donot change (Oil can, or pop in and out)\nwith internal pressure - are considered negligible damage.\nB. Repairable damage: Dents or bends in the wing fuel spar and ribs may be repaired by reforming\nor by replacing a section of the structure. Since aluminum work hardens, it is much more likely to\ncrack when reformed and should be carefully inspected for such cracks after rework. Removal and\nreplacement of a damaged section is preferred to reformation.\nC. Damage Necessitating Replacement Of Parts: Due to the amount of fuel bay sealant which must be\nremoved from fuel bay components to facilitate repair, individual parts are not available to replace fuel\nbay spars or ribs. The entire fuel bay area must be replaced as a unit.",
+      "word_count": 160
+    },
+    {
+      "id": 107,
+      "type": "section_chunk",
+      "title": "8. Wing Leading Edge Damage Criteria",
+      "content": "8. Wing Leading Edge Damage Criteria\nA. Negligible damage: Any smooth dents in the wing leading edge skin that are not more than 0.030\ninch (0.76 mm) below contour and circumscribable with not more than a 1.5 inch (38 mm) diameter\ncircle that has no evidence of skin tears, cracks, or skin penetrations - which are not stress wrinkles\nand do not interfere with internal structure - constitute negligible damage. However, because of the\ncritical nature of the wing leading edge, this cosmetic repair should be completed.\nB. Repairable damage: Dents or dings deeper and/or larger than speciﬁed above must be repaired. Skin\ntears, cracks or penetrations must be repaired. Dings that include ribs must be repaired by reforming\nor removal and replacement of the rib. Reevaluation of the skin after the repair of the understructure\nwill determine if the skin damage is negligible, repairableor requires replacement.\nC. Damage Ne cessitating Replacement Of Parts: Where extreme damage hasoccurred, complete\nleading edge skin panels should be replaced.",
+      "word_count": 166
+    },
+    {
+      "id": 108,
+      "type": "section_chunk",
+      "title": "9. Bonded Le ading Edge Damage Criteria",
+      "content": "9. Bonded Le ading Edge Damage Criteria\nA. Negligible damage: Any smooth dents in the wing leading edge skin that are not more than 0.030\ninch (0.76 mm) below contour and circumscribable with not more than a 1.5 inch (38 mm) diameter\ncircle that has no evidence of skin tears, cracks, or skin penetrations - which are not stress wrinkles\nand do not interfere with internal structure - constitute negligible damage. However, because of the\ncritical nature of the wing leading edge, this cosmetic repair should be completed.\n57-10-00 Page 2\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nB. Repairable damage: Dents or dings deeper and/or larger than speciﬁed above must be repaired. Skin\ntears, cracks or penetrations must be repaired. Dings that include ribs must be repaired by reforming\nor removal andreplacement of the rib. Reevaluation of the skin after the repair of the understructure\nwill determine if the skin damage is negligible, repairableor requires replacement. Bonded ribs may be\nremoved by applying heat to the damaged area using a heat gun.Replacement ribs may be installed\nusing protruding head or dimpledﬂush rivets.\nC. Damage Necessitating Replacement Of Parts: Where extreme damage has occurred, complete\nleading edge skin panels should be replaced.",
+      "word_count": 210
+    },
+    {
+      "id": 109,
+      "type": "section_chunk",
+      "title": "10. Wing Strut Damage Criteria",
+      "content": "10. Wing Strut Damage Criteria\nA. Negligible damage: Any smooth dents in the strut that are not more than 0.090 inch (2.03 mm) below\ncontour and circumscribable with not more than a 3.0 inch (76.2 mm) diameter circle is negligible\ndamage. Minor scratches which do not involve removal or displacement of strut material is negligible\ndamage. Because of the critical nature of the strut, any non-cosmetic scratches must be reworked.\nB. Repairable damage: For grooves in the strut caused by fairings, strut maybe repaired if groove is\nless than 0.020 inch and is more than 0.75 inch from a rivet center. For lower trailing edge strut\ndamage (typically caused by door hitting strut), strut may be repaired if groove depth is less than 50%\nof originalmaterial thickness.\nC. Damage Necessitating Replacement Of Parts: For grooves in the strut caused by fairings, strut must\nbe replaced if groove exceeds 0.010 inch in depth and is less than 0.75 inch from a rivet center AND/\nOR if grooveexceeds 0.020 inch in depth and is more than 0.75 inch from a rivet center. For lower\ntrailing edge strut damage (typically caused by door hitting strut), strut must be replaced if groove is\ndeeper than 50% of the original material thickness.",
+      "word_count": 207
+    },
+    {
+      "id": 110,
+      "type": "section_chunk",
+      "title": "11. Aileron Damage Criteria (Corrugated Skin Aileron)",
+      "content": "11. Aileron Damage Criteria (Corrugated Skin Aileron)\nA. Negligible damage: Any smooth dents in the aileron skin that are not more than 0.050 inch (1.27 mm)\nbelow contour and circumscribable with not more than a 1.5 inch (38.1 mm) diameter circle - that\nhave no evidence of skin tears, cracks or skin penetrations and which do not include a corrugation -\nconstitute negligible damage.\nB. Repairable damage: Dents or dings deeper and/or larger than speciﬁed must be repaired. Skin tears,\ncracks or penetrations must be repaired. Dings that includecorrugations are unlikely to be reworkable,\nbut may be repaired by replacing the damaged area. Corrugated skin material is available from\nCessna. Special care must be taken to minimize added weight since the surface must be rebalanced\nafter rework.\nC. Damage Necessitating Replacement Of Parts: Because of the balance requirements, multiple areas\nof damagemay require replacement of skins to allow balance limits to be attained.",
+      "word_count": 153
+    },
+    {
+      "id": 111,
+      "type": "section_chunk",
+      "title": "12. Aileron Damage Criteria (Model 206 Aileron)",
+      "content": "12. Aileron Damage Criteria (Model 206 Aileron)\nA. Negligible damage: Any smooth dents in the aileron skin that are not more than 0.030 inch (0.76 mm)\nbelow contour and circumscribable with not more than a 1.5 inch (38.1 mm) diameter circle - that\nhave no evidence of skin tears, cracks or skin penetrations which are not stress wrinkles and do not\ninterfere with internal structure - constitute negligible damage.\nB. Repairable damage: Dents or dings deeper and/or larger than speciﬁed must be repaired. Skin tears,\ncracks or penetrations must be repaired. Dings that includeunderstructure (ribs) must be repaired\nby reforming or removal and replacement of the rib. Revaluation of the skin after the repair of the\nunderstructure will determine if the skin damage is negligible, repairable or replacement damage.\nSpecial care must be taken to minimize added weight since thesurface must be rebalanced after\nrework.\nC. Damage Necessitating Replacement Of Parts: Because of the balance requirements, multiple areas\nof damage may require replacement of skins to allow balance limits to be attained.\n57-10-00 Page 3\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL",
+      "word_count": 190
+    },
+    {
+      "id": 112,
+      "type": "section_chunk",
+      "title": "13. Wing Flap Damage Criteria (Corrugated Skin Flap)",
+      "content": "13. Wing Flap Damage Criteria (Corrugated Skin Flap)\nA. Negligible damage: Any smooth dents in theﬂap skin that are not more than 0.050 inch (1.27 mm)\nbelow contour and circumscribable with not more than a 1.5 inch (38.1 mm) diameter circle - that\nhave no evidence of skin tears, cracks or skin penetrations and which do not include corrugations -\nconstitute negligible damage.\nB. Repairable damage: Dents or dings deeper and/or larger than speciﬁed may be repaired. Skin tears,\ncracks or penetration must be repaired. Dings that include corrugations are unlikely to be reworkable,\nbut may be repaired by replacing the damaged area. Corrugated skin material is available from\nCessna.\nC. Damage Necessitating Replacement Of Parts: Multiple repairs to the same area must not be made,\nbut a larger repair incorporating both repairs may be made. Decisions regarding replacement of parts\nshould be made based on the feasibility of repair verses complete replacement of the skin",
+      "word_count": 156
+    },
+    {
+      "id": 113,
+      "type": "section_chunk",
+      "title": "14. Wing Flap Damage Criteria (Model 206 Flap)",
+      "content": "14. Wing Flap Damage Criteria (Model 206 Flap)\nA. Negligible damage: Any smooth dents in theﬂap skin that are not more than 0.030 inch (0.76 mm)\nbelow contour and circumscribable with not more than a 1.5 inch (38.1 mm) diameter circle - that\nhave no evidence of skin tears, cracks or skin penetrations and which do not include corrugations -\nconstitute negligible damage.\nB. Repairable damage: Dents or dings deeper and/or larger than speciﬁed may be repaired. Skin tears,\ncracks or penetration must be repaired. Dings that include understructure (ribs) must be repaired\nby reforming or removal and replacement of the rib. Reevaluation of the skin after the repair of the\nunderstructure will determine if the skin damage is negligible, repairable or replacement damage.\nC. Damage Necessitating Replacement Of Parts: Multiple repairs to the same area must not be made,\nbut a larger repair incorporating both repairs may be made. Skins must be replaced if damage extends\nacross more than one rib.\n57-10-00 Page 4\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWING FUEL BAY REPAIRS",
+      "word_count": 184
+    },
+    {
+      "id": 114,
+      "type": "section_chunk",
+      "title": "1. Preparing Dama ged Area In Wing Fuel Bay for Repair",
+      "content": "1. Preparing Dama ged Area In Wing Fuel Bay for Repair\nA. Before performing any maintenance in fuel bay area, it will be necessary to defuel and purge the fuel\nbay. To defuel and purge the fuel bay, proceed as follows:\nWARNING: During all fuel system servicing procedures, ﬁre ﬁghting\nequipment must be available.\nWARNING: Always ground airplane prior to performing any maintenance of the\nfuel system.\nWARNING: Avoid drainage from residual fuel held in disconnected fuel lines;\nthis accumulation constitutes aﬁre hazard.\nWARNING: Use NS-40 (RAS-4) (Snap-On Tools Corp., Kenosha, Wisconsin),\nMIL-T-83483 (thread compound, anti- seize, graphite petrolatum),\nor engine oilas a thread lubricant or to seal leaking connections.\nApply sparingly to all butﬁrst two threads of maleﬁttings, being\ncareful not to allow entry of compound into fuel system.\nNOTE: Covers or caps should be installed on lines andﬁttings to prevent entry of foreign material,\nand to prevent damage to threads.\n(1) Ground airplane to a suitable ground stake.\n(2) Ensure airplane battery switch is in OFF position.\n(3) Turn fuel selector valves to OFF position\n(4) Remove fuelﬁller cap on bay that is to be defueled; insert defueling nozzle.\n(5) Remove as much fuel as possible throughﬁller opening.\n(6) Remove drain valves from bottom side of fuel bay and drainremaining fuel into a clean, open\ncontainer. Use defueling nozzle to remove fuel from container.\n(7) If necessary, repeat procedures for opposite wing.\nWARNING: Purge fuel bays with an inert gas (argon or carbon dioxide)\nprior to repairing fuel leaks to preclude possibility of\nexplosions.\n(8) Insert inert gas supply hose into fuelﬁller opening.\n(9) Allow gas toﬂow into bay for several minutes to remove all fuel vapors. Since argon or carbon\ndioxide areheavier than air, these gasses will remain in bay during repair. Non-sparking tools\nshall be used to make repairs (air motors, plastic scrapers,etc.).\nNOTE: Portable vapor detectors are available to determine presenc...",
+      "word_count": 635
+    },
+    {
+      "id": 115,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Any repair that breaks the fuel bay seal will necessitate resealing that bay area. Repair parts that\nneed sealing must be installed during the sealing operations. All joints within the boundary of the\nbay, but whichdo not provide a direct fuel path out of the bay (such as fuel spar ﬂanges and rib\nﬂanges), must be fay-surface-sealed andﬁllet sealed on the fuel side. Fay surface sealing is applying\nsealant to one mating part before assembly. Enough sealant must be applied so it will squeeze out\ncompletely around joint when the parts are fastened together. Theﬁllet seal is applied after the joint\nis fay-surface-sealed and fastened. Sealer is (ﬁllet) applied to the edge of all riveted joints, joggles,\nbend reliefs, voids, rivets, or fasteners. All boundaries and any other place that could become a fuel\nleak are sealed. The fay sealant need not be cured before applying theﬁllet sealer; however, the fay\nsealant must be free of dirt or other contaminants before applyingﬁllet seal. Fillets laid on intersecting\njoints shall be joined together to produce a continuous seal. Sealant must be pressed into the joint to\ndisplace any entrapped air bubbles. Use an extrusion gun to lay a bead along joint, and work out all\nentrapped air with a small paddle to eliminate bubbles.",
+      "word_count": 216
+    },
+    {
+      "id": 116,
+      "type": "section_chunk",
+      "title": "2. Integral Fuel Bay Sealant",
+      "content": "2. Integral Fuel Bay Sealant\nA. Two types of sealants are used, one to seal the bay and the other to seal access doors, fuel quantity\ntransmitters, fuel inlet assemblies, and fuel test receptacle. The access door sealant is more pliable,\nand will not adhere to metal asﬁrmly as the bay sealant. This permits access doors, fuel quantity\ntransmitter, etc., to be removed without damage. Service Kit SK210-56, available from Cessna Parts\nDistribution, contains Type I Class B-2 and Type VIII Class B-2 (access) sealants with Cessna Parts\nDistribution, contains Type I Class B-1/2 and Type VIII Class B-12 (access) sealants with the proper\nquantity of accelerator for each sealant.\nWARNING: The accelerators contain heavy metal peroxides. Keep them away\nfrom heat and ﬂame. Use only in well-ventilated areas. Avoid skin\nand eye contact. Wear eye shields. In case of eye contact,ﬂush\ngenerously with water and get prompt medical attention.",
+      "word_count": 150
+    },
+    {
+      "id": 117,
+      "type": "section_chunk",
+      "title": "3. Mixing Se alant",
+      "content": "3. Mixing Se alant\nA. Use all the accelerator and sealant in the container when mixing to ensure the proper ratio of\naccelerator to sealant. Stir the accelerator to absorb allﬂoating liquid before it is mixed with the\nsealant.The accelerator can then be poured into the container of sealant for mixing; otherwise, a\nwax-free container must be used. Stir accelerator and sealant until they become a uniform mixture.\nDo not stir air into mixture so it forms bubbles; if bubbles appear, they must be removed.\nCAUTION: Protect drain holes and fuel outlet screens when applying sealants.\nNOTE: Work life of sealants contained in SK210-56 is 2 hours from the start of mixing. Work life\nof sealants contained in SK210-101 is one-half hour from thestart of mixing. This is based\non a standard condition of 77° F (25° C) and 50 percent relative humidity. An increase in\neither temperature or humidity will shorten the work life ofthe sealants.",
+      "word_count": 157
+    },
+    {
+      "id": 118,
+      "type": "section_chunk",
+      "title": "4. Applyin g Sealant",
+      "content": "4. Applyin g Sealant\nA. Use the following procedures as the best method for applying sealant.\n(1) Apply fay surface sealant to one mating part, and installrivets or fasteners while sealant is still\nwithin its work life.\nNOTE: During sealing, the supply of mixed sealant must be monitored to be certain it has\nnot exceeded the normal work life. To check, use a small wooden paddle, or tongue\ndepressor, to gather a small amount of sealant. Touch this sealant to a piece of clean\nsheet metal. If it adheres, sealant can still be used, if it doesn't adhere, then the\nsealant has exceeded the allowable work life, and must not be used.\n57-12-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(2) Apply aﬁllet seal to the repaired area on the inside of the bay.\n(3) Apply a fay surface seal to access doors, fuel quantity transmitters, etc., if removed, and install.\n(4) Allow sealant to cure; refer to Curing Time, for time requirements.\n(5) Clean stains on outer surface.\n(6) Test fuel bay for leaks as described in Testing Integral Fuel Bay.",
+      "word_count": 192
+    },
+    {
+      "id": 119,
+      "type": "section_chunk",
+      "title": "5. Sealing Fuel Leaks",
+      "content": "5. Sealing Fuel Leaks\nA. First determine the source of the fuel leak. Fuel canﬂow along a seam or structure of the wing for\nseveral inches, making the leak source difﬁcult toﬁnd. A stained area is an indication of the leak\nsource. Fuel leaks can be found by testing the complete bay asdescribed in Testing Integral Fuel\nBay. Another method of detecting the source of a fuel leak is to remove access doors and blow with\nan air nozzle from the inside of the bay in the area of the leak while soap bubble solution is applied to\nthe outside of the bay. After the leak source has been found, proceed as follows:\n(1) Remove existing sealant in the area of the leak as described in Chapter 57, Wing Fuel Bay\nRepairs.\n(2) Clean the area and apply aﬁllet seal. Press sealant into leaking area with a small paddle,\nworking out all air bubbles.\n(3) If leakage occurs around a rivet or bolt, restrike the rivet or loosen bolt,retorque, and reseal\naround nutplate.\n(4) Apply fay surface door sealant to access doors, fuel quantity transmitters, etc., if removed, and\ninstall.\n(5) Test fuel bay for leakage as outlined in Testing IntegralFuel Bay.",
+      "word_count": 202
+    },
+    {
+      "id": 120,
+      "type": "section_chunk",
+      "title": "6. Curing Time",
+      "content": "6. Curing Time\nA. Class B-2 sealant has a maximum tack free time of 40 hours and a maximum cure time of 72 hours.\nThese values are based on a standard condition of 77° F (25° C)and 50 percent relative humidity.\nB. Class B-1/2 sealant has a maximum tack free time of 10 hours and a maximum cure time of 30 hours.\nThese values are based on a standard condition of 77° F (25° C)and 50 percent relative humidity.\nC. The cure of sealants can be accelerated by an increase in temperature and/or relative humidity. Warm\ncirculating air at a temperature not to exceed 140° F (60° C) may be used to accelerate cure. Heat\nlamps may be used if the surface temperature of the sealant does not exceed 140° F (60° C). At\ntemperatures above 120° F (49° C), the relative humidity will normally be so low (below 40 percent)\nthat sealantcuring will be retarded. If necessary, the relative humidity may be increased by the use of\nwater containing less than 100 parts per million total solids and less the 10 parts per million chlorides.",
+      "word_count": 186
+    },
+    {
+      "id": 121,
+      "type": "section_chunk",
+      "title": "7. Testing Integral Fuel Bay",
+      "content": "7. Testing Integral Fuel Bay\nA. The fuel system consists of two vented, integral fuel tanks (one in each wing). The following\nprocedures are for testing integral fuel bay.\n(1) Remove vent line from ventﬁtting and capﬁtting.\n(2) Disconnect fuel lines from bay.\n(3) To one of the bayﬁttings, attach a water manometer capable of measuring 20 inches of water.\n(4) To the other bay ﬁtting, connect a well-regulated supply of air (1/2 psi maximum, or 13.8 inches\nof water). Nitrogen may be used where the bay might be exposedto temperature changes while\ntesting.\n(5) Make sure ﬁller cap is installed and sealed.\nCAUTION: Do not attempt to apply pressure to the bay without a good regulator\nand a positive shutoff in the supply line. Do not pressurize the fuel\nbay to more than one-half psi or damage may occur.\n(6) Apply pressure slowly until one-half psi is obtained.\n(7) Apply a soap solution as required.\n(8) Allow 15 to 30 minutes for pressure to stabilize.\n(9) If bay holds for 15 minutes, without pressure loss, bay is acceptable.\n57-12-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(10) Reseal and retest if any leaks are found.\n57-12-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWING RIB",
+      "word_count": 226
+    },
+    {
+      "id": 122,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Flanged upper and lower edges of all ribs serve as cap strips in addition to providing rigidity to the rib.\nThe skin riveted or bonded directly to each ribﬂange provides the cellular strength for each successive\nrib bay. The nose, center, and trailing rib segments are riveted together through the front and rear\nspars to form the basic airfoil section. Spanwise, Alclad stringers stiffen the skin between ribs.",
+      "word_count": 71
+    },
+    {
+      "id": 123,
+      "type": "section_chunk",
+      "title": "2. Wing Rib Damag e Classiﬁcation",
+      "content": "2. Wing Rib Damag e Classiﬁcation\nA. Damage to the wing rib can be divided into three major categories and is detailed in Wing Damage\nClassiﬁcation.",
+      "word_count": 26
+    },
+    {
+      "id": 124,
+      "type": "section_chunk",
+      "title": "3. Wing Rib Repair",
+      "content": "3. Wing Rib Repair\nA. Repairs to the wing rib are illustrated in Figure 801.\n57-20-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Rib Repair\nFigure 801 (Sheet 1)\n57-20-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Rib Repair\nFigure 801 (Sheet 2)\n57-20-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWING SPARS",
+      "word_count": 85
+    },
+    {
+      "id": 125,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Front and rear spars are of riveted construction.",
+      "word_count": 11
+    },
+    {
+      "id": 126,
+      "type": "section_chunk",
+      "title": "2. Damage Classi ﬁcation",
+      "content": "2. Damage Classi ﬁcation\nA. Damage to the wing spar can be divided into three major categories and is detailed in Wing Damage\nClassiﬁcation.",
+      "word_count": 24
+    },
+    {
+      "id": 127,
+      "type": "section_chunk",
+      "title": "3. Spar Repair",
+      "content": "3. Spar Repair\nA. Repairs to the wing spar are illustrated in Figure 801.\n57-21-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWing Spar Repair\nFigure 801 (Sheet 1)\n57-21-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWing Spar Repair\nFigure 801 (Sheet 2)\n57-21-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWing Spar Repair\nFigure 801 (Sheet 3)\n57-21-00 Page 804\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWing Spar Repair\nFigure 801 (Sheet 4)\n57-21-00 Page 805\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nMEASURING WING TWIST - INSPECTION/CHECK",
+      "word_count": 137
+    },
+    {
+      "id": 128,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. This section applies to the procedures required to perform a wing twist check and is applicable to both\nwing. If damage has occurred to a wing, it is advisable to check the wing twist (washout).\nB. Wing twist (washout) for the Model 172, 182/T182 and 206/T206 airplanes is3°37’.",
+      "word_count": 51
+    },
+    {
+      "id": 129,
+      "type": "section_chunk",
+      "title": "2. Tools, Equipment and Materials",
+      "content": "2. Tools, Equipment and Materials\nA. The followingequipment is required to accomplish the wing twist check procedure:\nNAME NUMBER MANUFACTURER USE\n32 Inch Straightedge Commercially Available Used to aid in determining\nwing twist.\nProtractor Head with\nBubble Level\nCommercially Available To ensure wings are level.\nBolts Machined to\nSpeciﬁc Lengths\nFabricate Locally Used to determine wing\ntwist.",
+      "word_count": 57
+    },
+    {
+      "id": 130,
+      "type": "section_chunk",
+      "title": "3. Model 172 Series Wing Twist Check Procedure",
+      "content": "3. Model 172 Series Wing Twist Check Procedure\nA. Mark Wing Station Reference Points (Refer to Figure 601)\n(1) Locate WS 39.00. Make a mark, with a felt tip pen, approximately 0.50 inch aft of lateral row of\nrivets in wing leading edge sparﬂange.\n(2) Locate WS 100.50. Make a mark, with a felt tip pen, approximately 0.50 inch aft of lateral row\nof rivets in wing leading edge sparﬂange.\n(3) Locate outboard WS 207.00. Make a mark, with a felt tip pen, approximately 0.50 inch aft of\nlateral row of rivets in wing leading edge sparﬂange.\nB. Measure Wing Twist at Each Wing Station (Refer to Figure 601)\nNOTE: While performing the following procedure, stay as far away as possible from the \"canned\"\nareas of the wing.\n(1) At WS 39.00:\n(a) Grind bolt \"A\" to a dimension of 2.00 inches. Grind bolt \"B\" to a dimension of 1.00 inch.\nPlace these bolts 29.50 inches from each other on the upper edge of the straightedge and\nsecure using tape.\n(b) Secure protractor to bottom of the straightedge.\n(c) Hold straightedge parallel to wing station and place bolt \"A\" on mark.\n(d) Set bubble in protractor to center, and lock protractor to hold this reading.\n(2) At WS 100.50:\n(a) Hold straightedge parallel to wing station.\n(b) Place bolt \"A\" on mark, set protractor head against loweredge of straightedge and verify\nbubble in protractor head indicates level.\n(3) At WS 207.00:\n(a) Remove bolt \"A\" from straightedge. Grind another bolt \"A\" to a dimension of 0.45 inch.\nPlace this bolt 24.00 inches from bolt \"B\" and secure to straightedge.\n(b) Hold straightedge parallel to wing station and place bolt \"A\" on mark.\n(c) Check to assure that protractor bubble is still centered. If proper twist is present, the\nprotractor readings will be the same (parallel).\nNOTE: Forward or aft bolt may be lowered from wing 0.10 inch (maximum) to attain\nlevel indication.\n57-22-00 Page 601\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL",
+      "word_count": 340
+    },
+    {
+      "id": 131,
+      "type": "section_chunk",
+      "title": "4. Model 182 Series Wing Twist Check Procedure",
+      "content": "4. Model 182 Series Wing Twist Check Procedure\nA. Mark Wing Station Reference Points (Refer to Figure 602)\n(1) Locate WS 39.00. Make a mark, with a felt tip pen, approximately 0.50inch aft of lateral row of\nrivets in wing leading edge sparﬂange.\n(2) Locate WS 100.50. Make a mark, with a felt tip pen, approximately 0.50 inch aft of lateral row\nof rivets in wing leading edge sparﬂange.\n(3) Locate outboard WS 207.00. Make a mark, with a felt tip pen, approximately 0.50 inch aft of\nlateral row of rivets in wing leading edge sparﬂange.\nB. Measure Wing Twist at Each Wing Station (Refer to Figure 602)\nNOTE: While performing the following procedure, stay as far away as possible from the \"canned\"\nareas of the wing.\n(1) At WS 39.00:\n(a) Grind bolt \"A\" to a dimension of 2.00 inches. Grind bolt \"B\" to a dimension of 1.00 inch.\nPlace these bolts 29.50 inches from each other on the upper edge of the straightedge and\nsecure using tape.\n(b) Secure protractor to bottom of the straightedge.\n(c) Hold straightedge parallel to wing station and place bolt \"A\" on mark.\n(d) Set bubble in protractor to center, and lock protractor to hold this reading.\n(2) At WS 100.50:\n(a) Hold straightedge parallel to wing station.\n(b) Place bolt \"A\" on mark, set protractor head against loweredge of straightedge and verify\nbubble in protractor head indicates level.\n(3) At WS 207.00:\n(a) Remove bolt \"A\" from straightedge. Grind another bolt \"A\" to a dimension of 0.45 inch.\nPlace this bolt 24.00 inches from bolt \"B\" and secure to straightedge.\n(b) Hold straightedge parallel to wing station and place bolt \"A\" on mark.\n(c) Check to assure that protractor bubble is still centered. If proper twist is present, the\nprotractor readings will be the same (parallel).\nNOTE: Forward or aft bolt may be lowered from wing 0.10 inch (maximum) to attain\nlevel indication.",
+      "word_count": 321
+    },
+    {
+      "id": 132,
+      "type": "section_chunk",
+      "title": "5. Model 206/T206 Series Wing Twist Check Procedure",
+      "content": "5. Model 206/T206 Series Wing Twist Check Procedure\nA. Mark wing Station Reference Points (Refer to Figure 603)\n(1) Locate WS 39.00. Make a mark, with a felt tip pen, approximately 0.50inch aft of lateral row of\nrivets in wing leading edge sparﬂange.\n(2) Locate WS 100.00. Make a mark, with a felt tip pen, approximately 0.50inch aft of lateral row\nof rivets in wing leading edge sparﬂange.\n(3) Locate outboard WS 207.00. Make a mark, with a felt tip pen, approximately 0.50inch aft of\nlateral row of rivets in wing leading edge sparﬂange.\nB. Measure Wing Twist at Each Wing Station (Refer to Figure 603)\nNOTE: While performing the following procedure, stay as far away as possible from the \"canned\"\nareas of the wing.\n(1) At WS 39.00:\n(a) Grind bolt \"A\" to a dimension of 2.00 inches. Grind bolt \"B\" to a dimension of 1.00 inch.\nPlace these bolts 29.50 inches from each other on the upper edge of the straightedge and\nsecure using tape.\n(b) Secure protractor to bottom of the straightedge.\n(c) Hold straightedge parallel to wing station and place bolt \"A\" on mark.\n(d) Set bubble in protractor to center, and lock protractor to hold this reading.\n57-22-00 Page 602\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nMeasuring Model 172 Series Wing Twist\nFigure 601 (Sheet 1)\n57-22-00 Page 603\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nMeasuring Model 182 Series Wing Twist\nFigure 602 (Sheet 1)\n57-22-00 Page 604\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\n(2) At WS 100.00:\n(a) Hold straightedge parallel to wing station.\n(b) Place bolt \"A\" on mark, set protractor head against lower edge of straightedge and verify\nbubble in protractor head indicates level.\n(3) At WS 207.00:\n(a) Remove bolt \"A\"from straightedge. Grind another bolt \"A\" to a dimension of 0.66 inch.\nPlace this bolt 20.00 inches from bolt \"B\" and secure to straighte...",
+      "word_count": 440
+    },
+    {
+      "id": 133,
+      "type": "section_chunk",
+      "title": "1. Stringer Damag e Classiﬁcation",
+      "content": "1. Stringer Damag e Classiﬁcation\nA. Damage to the wing stringers can be divided into three major categories and is detailed in Wing\nDamage Classiﬁcation.",
+      "word_count": 25
+    },
+    {
+      "id": 134,
+      "type": "section_chunk",
+      "title": "2. Stringer Repair",
+      "content": "2. Stringer Repair\nA. Repairs to wing stringer are similar to repairs to fuselage stringers. Refer to Chapter 52, Stringer and\nChannel Repair, Figure 801 for repair illustrations.\n57-23-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nAUXILIARY SPAR REPAIRS",
+      "word_count": 49
+    },
+    {
+      "id": 135,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. The auxiliary spar is constructed of formed sheet metal, and is behind the trailing edge ribs from\napproximately WS 100.50 to 208.00. The auxiliary spar is attached to upper skins, lower skins and\nother wing structure using rivets.",
+      "word_count": 41
+    },
+    {
+      "id": 136,
+      "type": "section_chunk",
+      "title": "2. Auxiliary Spar Damage",
+      "content": "2. Auxiliary Spar Damage\nA. Damage to the a uxiliary spar can be divided into three major categories andis detailed in Wing\nDamage Classiﬁcation.",
+      "word_count": 24
+    },
+    {
+      "id": 137,
+      "type": "section_chunk",
+      "title": "3. Auxiliary Spar Repair",
+      "content": "3. Auxiliary Spar Repair\nA. Repairs to the auxiliary spar are illustrated in Figure 801.\n57-24-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nAuxiliary Spar Repair\nFigure 801 (Sheet 1)\n57-24-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLEADING EDGE REPAIRS",
+      "word_count": 61
+    },
+    {
+      "id": 138,
+      "type": "section_chunk",
+      "title": "1. Leading Edge Da mage Classiﬁcation",
+      "content": "1. Leading Edge Da mage Classiﬁcation\nA. Damage to the leading edge can be divided into three major categories and is detailed in Wing Damage\nClassiﬁcation.",
+      "word_count": 26
+    },
+    {
+      "id": 139,
+      "type": "section_chunk",
+      "title": "2. Leading Edge Repairs",
+      "content": "2. Leading Edge Repairs\nA. Repairs to the leading edge are illustrated in Figure 801.",
+      "word_count": 15
+    },
+    {
+      "id": 140,
+      "type": "section_chunk",
+      "title": "3. Notes and Repair Limits",
+      "content": "3. Notes and Repair Limits\nA. The following notes and repair limits are applicable to lading edge repairs:\n(1) Dimple leading edge skin andﬁller material, counter sink the doubler.\n(2) Use MS20426AD4 rivets to installﬁller except where bucking is impossible. Use blind rivets\nwhere regular rivets cannot be bucked.\n(3) Contour must bemaintained. After repair has been completed, use epoxyﬁller as necessary\nand sand smooth before painting.\n(4) Vertical size of patch is limited by ability to install doubler clear of front spar.\n(5) Lateral size islimited to seven inches across trimmed out area.\n(6) Number of repairs is limited to one per bay.\n57-25-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLeading Edge Repair\nFigure 801 (Sheet 1)\n57-25-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nBONDED LEADING EDGE REPAIR",
+      "word_count": 151
+    },
+    {
+      "id": 141,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Bonded leading edges are used on the Model 182 and Model 206/T206 series of airplanes. The\nfollowing repairs apply to these airplanes only.",
+      "word_count": 26
+    },
+    {
+      "id": 142,
+      "type": "section_chunk",
+      "title": "2. Bonded Leading Edge Damage Classi ﬁcation",
+      "content": "2. Bonded Leading Edge Damage Classi ﬁcation\nA. Damage to the bonded leading edge can be divided into threemajor categories and is detailed in\nWing Damage Classiﬁcation.",
+      "word_count": 27
+    },
+    {
+      "id": 143,
+      "type": "section_chunk",
+      "title": "3. Bonded Leading Edge Repair",
+      "content": "3. Bonded Leading Edge Repair\nA. Repairs to thebonded leading edge are illustrated in Figure 801.\n57-26-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nBonded Leading Edge Repair\nFigure 801 (Sheet 1)\n57-26-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFLAP LEADING EDGE REPAIR",
+      "word_count": 64
+    },
+    {
+      "id": 144,
+      "type": "section_chunk",
+      "title": "1. Flap Leading Ed ge Damage Classiﬁcation",
+      "content": "1. Flap Leading Ed ge Damage Classiﬁcation\nA. Damage to the wingﬂap can be divided into three major categories and is detailedin Wing Damage\nClassiﬁcation.",
+      "word_count": 25
+    },
+    {
+      "id": 145,
+      "type": "section_chunk",
+      "title": "2. Flap Repairs",
+      "content": "2. Flap Repairs\nA. Repairs to theﬂap leading edge are illustrated in Figure 801. Repairs to thecorrugated skin are\nillustrated in Chapter 51, Typical Skin Repairs, Figure 802.\n57-27-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFlap Leading Edge Repair\nFigure 801 (Sheet 1)\n57-27-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nFLAPS AND AILERONS",
+      "word_count": 75
+    },
+    {
+      "id": 146,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Each wing ﬂap assembly is constructed of a spar, ribs, upper and lower skins and leading edge skin.\nB. Each aileron assembly is constructed of a single spar, ribs, upper and lower skin. Balance weights\nare installedin the lower inboard leading edge and are retained with screws.\nC. Flight control surfaces which have been repaired or replaced must be balanced in accordance with\nprocedures outlined in Chapter 51, Flight Control Surface Balancing.",
+      "word_count": 75
+    },
+    {
+      "id": 147,
+      "type": "section_chunk",
+      "title": "2. Damage Criteria",
+      "content": "2. Damage Criteria\nA. Damage to the ﬂaps and ailerons can be divided into three major categories and is detailed in Wing\nDamage Classiﬁcation.",
+      "word_count": 24
+    },
+    {
+      "id": 148,
+      "type": "section_chunk",
+      "title": "3. Flap and Aileron Repair",
+      "content": "3. Flap and Aileron Repair\nA. Skin damage, exceeding that considered negligible, that can be repaired with minor patches can be\nconsidered repairable. Flush skin patches are illustratedin Chapter 51, Typical Skin Repairs, Figure",
+      "word_count": 34
+    },
+    {
+      "id": 149,
+      "type": "section_chunk",
+      "title": "801. A typical rib repair is illustrated in Chapter 51, Control Surface Repair, Figure 801, trailing edge",
+      "content": "801. A typical rib repair is illustrated in Chapter 51, Control Surface Repair, Figure 801, trailing edge\nrepair in Chapter 51, Control Surface Repair, Figure 802, are typicalﬂap and aileron repairs.\nB. Flight control surfaces which have been repaired or replaced must be balanced in accordance with\nprocedures outlined in Chapter 51, Flight Control Surface Balancing.\n57-40-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nWING LIFT STRUTS",
+      "word_count": 77
+    },
+    {
+      "id": 150,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. The wing lift struts consist of 6061-T6 tube stock formed into an aerodynamic shape. Attachﬁttings\nare machined from 7075-T73 bar stock and attached to the strut tubes.",
+      "word_count": 30
+    },
+    {
+      "id": 151,
+      "type": "section_chunk",
+      "title": "2. Wing Strut Damage Classiﬁcation",
+      "content": "2. Wing Strut Damage Classiﬁcation\nA. Damage to the wing lift strut can be divided into three major categories and is detailed in Wing Damage\nClassiﬁcation.\n57-50-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCHAPTER\n71\nPOWER PLANT\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nLIST OF EFFECTIVE PAGES\nCHAPTER-SECTION-SUBJECT PAGE DATE\n71-Title\n71-List of Effective Pages\n71-Record of Temporary Revisions\n71-Table of Contents\n71-00-00 Page 1 Jun 1/2005\n71-10-00 Page 801 Jun 1/2005\n71-20-00 Pages 801-804 Jun 1/2005\n71 - LIST OF EFFECTIVE PAGES Page 1 of 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nMAINTENANCE MANUAL\nRECORD OF TEMPORARY REVISIONS\nTemporary Revision\nNumber Page Number Issue Date By Date Removed By\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nCONTENTS\nPOWERPLANT - GENERAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . 71-00-00 Page 1\nGeneral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 71-00-00 Page 1\nENGINE COWLING REPAIRS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . 71-10-00 Page 801\nGeneral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 71-10-00 Page 801\nRepair of Cowling Skins . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . 71-10-00 Page 801\nRepair of Reinforcement Angles . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . 71-10-00 Page 801\nDYNAFOCAL-TYPE ENGINE MOUNT REPAIRS . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . 71-20-00 Page 801\nGeneral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . 71-20-00 P...",
+      "word_count": 692
+    },
+    {
+      "id": 152,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. Single engine airplanes produced from 1996 and On use Lycoming powerplants. These powerplants\nare attached to the fuselage by dynafocal mounts (172R, 172S, 182S, 182T and T182T) or by sheet\nmetal bed mounts (206H and T206H).\nB. This chapter covers structural repair to the cowlings (172R, 172S, 182S, 182T and T182T), and\nstructural repair to the welded engine mounts (172R, 172S, 182S, 182T and T182T). For repair\ninformation not covered in this manual, contact Cessna Propeller Aircraft Product Support, P.O. Box\n7706, Wichita, KS 67277. Telephone(316) 517-5800 or Facsimile (316) 942-9006.\n71-00-00 Page 1\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nENGINE COWLING REPAIRS",
+      "word_count": 115
+    },
+    {
+      "id": 153,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. This section provides repair procedures for the cowl skins and reinforcement angles.",
+      "word_count": 15
+    },
+    {
+      "id": 154,
+      "type": "section_chunk",
+      "title": "2. Repair of Cowling Skins",
+      "content": "2. Repair of Cowling Skins\nA. Cowl halves are made of formed aluminum skin. If extensively damaged, complete sections of cowling\nmust be replaced. Standard insert-type skin patches, however, may be used if repair parts are formed\ntoﬁt. Small cracks may be stop drilled and dents straightened if they are reinforced on the inner side\nwith a doubler of the same material.",
+      "word_count": 62
+    },
+    {
+      "id": 155,
+      "type": "section_chunk",
+      "title": "3. Repair of Reinforcement Angles",
+      "content": "3. Repair of Reinforcement Angles\nA. Due to their small size, cowl reinforcement angles shouldbe replaced (rather than repaired) if they\nbecome damaged.\n71-10-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nDYNAFOCAL-TYPE ENGINE MOUNT REPAIRS",
+      "word_count": 45
+    },
+    {
+      "id": 156,
+      "type": "section_chunk",
+      "title": "1. General",
+      "content": "1. General\nA. The engine mount is fabricated from 4130 chrome-molybdenum steel tubing. The mount attaches to\ntheﬁrewall at four points and to the engine using rubber isolation mounts at four points.\nNOTE: Repair by gas welding is acceptable.",
+      "word_count": 39
+    },
+    {
+      "id": 157,
+      "type": "section_chunk",
+      "title": "2. Engine Mount R epairs",
+      "content": "2. Engine Mount R epairs\nA. The following procedures are to be used when making repairs to the engine mount. Refer to Figure\n801.\n(1) All welding onthe engine mounts should be of the highest quality, since thetendency of vibration\nwill accentuate any minor defect present and cause fatigue cracks. Engine mount members\nare preferably repaired by using larger diameter replacement tube welds. However, reinforced\n30-degree scarf welds in place of theﬁshmouth welds are considered satisfactory for engine\nmount repair work.\n(2) Minor damage, such as a crack adjacent to an engine attaching lug, may be repaired by\nrewelding the tube and extending a gusset past the damaged area. Extensively damaged parts\nmust be replaced.\n(3) Engine mounting lugs and engine mount-to-fuselage attach ﬁttings should be replaced, not\nrepaired.\n(4) For information on damage beyond the scope of these repairs, consult Cessna Propeller\nAircraft Product Support, P.O. Box 7706, Wichita, KS 67277 USA, Telephone (316) 517-5800\nor Facsimile(316) 942-9006.\n71-20-00 Page 801\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Engine Mount Repairs\nFigure 801 (Sheet 1)\n71-20-00 Page 802\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Engine Mount Repairs\nFigure 801 (Sheet 2)\n71-20-00 Page 803\n© Cessna Aircraft Company Jun 1/2005\nCESSNA AIRCRAFT COMPANY\nSINGLE ENGINE\nSTRUCTURAL REPA IR MANUAL\nTypical Engine Mount Repairs\nFigure 801 (Sheet 3)\n71-20-00 Page 804\n© Cessna Aircraft Company Jun 1/2005",
+      "word_count": 246
+    }
+  ]
+}
