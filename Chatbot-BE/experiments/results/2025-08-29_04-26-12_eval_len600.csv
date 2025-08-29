@@ -1,0 +1,6 @@
+timestamp,run_id,query_id,query_text,top_k,temperature,max_tokens,latency_ms,retrieved_titles,answer_text
+2025-08-29_04-26-12,eval_len600,1,Define a dent in the SRM and say whether it changes cross-sectional area.,5,0.1,600,123886,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
+2025-08-29_04-26-12,eval_len600,2,Where should I check for corrosion from exhaust deposits?,5,0.1,600,122221,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
+2025-08-29_04-26-12,eval_len600,3,List the three broad damage categories used by the SRM.,5,0.1,600,122209,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
+2025-08-29_04-26-12,eval_len600,4,What are the depth guidelines for light corrosion?,5,0.1,600,122158,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
+2025-08-29_04-26-12,eval_len600,5,Explain dissimilar-metal corrosion.,5,0.1,600,122184,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
