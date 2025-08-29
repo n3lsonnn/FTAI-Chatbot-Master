@@ -1,0 +1,2 @@
+timestamp,run_id,id,question,reference_section,latency_ms,contains_reference,rough_match,retrieved_titles,answer_text
+2025-08-29_05-15-56,qa_cpu_baseline,1,What publication standard is the Cessna Single Engine Structural Repair Manual prepared to?,INTRODUCTION / Coverage,124163,0,0,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
