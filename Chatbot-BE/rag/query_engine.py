@@ -63,11 +63,11 @@ class RAGQueryEngine:
         self.index_file = Path("../models/index.faiss")
         self.metadata_file = Path("../models/chunk_texts.pkl")
         
-        # System prompt template
+        # System prompt template (includes strict fallback wording)
         self.system_prompt = """You are a helpful assistant for aircraft repair and maintenance. 
 You have access to technical documentation and repair manuals. 
 Always provide accurate, safety-focused answers based on the provided context.
-If the context doesn't contain enough information to answer the question safely, say so.
+If the context does not contain the information to answer the question safely, answer exactly: 'Not specified in the provided context.'
 Use clear, technical language appropriate for aircraft maintenance professionals."""
 
     def load_models_and_data(self):

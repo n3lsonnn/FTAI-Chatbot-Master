@@ -1,0 +1,12 @@
+Evaluation harness CSV columns (experiments/eval_harness.py)
+
+- timestamp: ISO-like timestamp string for when the run started (used in filename as well)
+- run_id: label provided via --run-id to identify the experiment configuration
+- query_id: the id field from experiments/queries.csv for this query
+- query_text: the query string from experiments/queries.csv
+- top_k: retrieval setting used for this run (number of chunks requested)
+- temperature: generation temperature passed to the LLM
+- max_tokens: maximum number of tokens requested for LLM output
+- latency_ms: end-to-end elapsed time for this query in milliseconds
+- retrieved_titles: pipe-separated list (" | ") of the titles of the retrieved chunks (in rank order)
+- answer_text: the final answer text returned by the LLM (or an ERROR: ... message on failure)

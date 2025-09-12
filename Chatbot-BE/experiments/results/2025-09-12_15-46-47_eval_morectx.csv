@@ -1,0 +1,14 @@
+timestamp,run_id,query_id,query_text,top_k,temperature,max_tokens,latency_ms,retrieved_titles,answer_text
+2025-09-12_15-46-47,eval_morectx,1,Define a dent in the SRM and say whether it changes cross-sectional area.,4,0.1,600,38533,1. General | 10. Wing Strut Damage Criteria | 2. Negligible Damage | 1. General,"The context of the question does not contain information to answer the question safely. The provided technical documentation states that a dent is a damaged area which results in a cross sectional area change due to scufﬁng, rubbing, scrapping or other surfac…, but it does not provide specific details about what constitutes a dent. Therefore, the context does not contain information to answer the question safely."
+2025-09-12_15-46-47,eval_morectx,2,Where should I check for corrosion from exhaust deposits?,4,0.1,600,122108,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
+2025-09-12_15-46-47,eval_morectx,3,List the three broad damage categories used by the SRM.,4,0.1,600,19686,1. General | 3. Damage Classi ﬁcation | 2. Auxiliary Spar Damage | 1. Damage Classi ﬁcation,"Sure! Here are the three broad damage categories used by the SRM:
+
+1. Negligible Damage: This category includes minor damage that does not require immediate repair or replacement. It typically involves small cracks, dents, or scratches on the wing or its component assemblies.
+
+2. Repairable Damage: This category refers to moderate damage that can be repaired with minor modifications or replacements. Examples include minor dents, scratches, and cracks that do not require immediate repair.
+
+3. Major Replacement Damage: This category includes severe damage that requires major repairs or replacement of the entire wing or its component assemblies. It typically involves significant damage to the wing or its components, such as structural damage or complete destruction.
+
+The SRM provides clear and technical language for aircraft maintenance professionals based on the provided context."
+2025-09-12_15-46-47,eval_morectx,4,What are the depth guidelines for light corrosion?,4,0.1,600,122075,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
+2025-09-12_15-46-47,eval_morectx,5,Explain dissimilar-metal corrosion.,4,0.1,600,122103,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"

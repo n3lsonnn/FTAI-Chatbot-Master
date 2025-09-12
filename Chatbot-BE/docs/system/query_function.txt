@@ -1,0 +1,87 @@
+Function that processes a user query and returns an answer
+
+Summary
+- Primary function and signature:
+  - process_query(self, query: str) -> Dict[str, Any]
+- Main steps:
+  1) Embed query with sentence-transformers (embed_query)
+  2) Retrieve top-k similar chunks via FAISS (find_similar_chunks)
+  3) Assemble context from retrieved chunks (format_context_prompt)
+  4) Build final LLM prompt (create_ollama_prompt)
+  5) Generate answer via Ollama (query_ollama)
+  6) Log progress and return structured output
+- Return values (dict keys):
+  - answer: generated answer string
+  - context: full context string used
+  - chunks_used: list of {id, title, type, similarity_score, rank}
+  - query: original question
+  - total_chunks_retrieved: integer
+
+Note on fallback
+- The system prompt now instructs: If context lacks sufficient information, the model must answer exactly: 'Not specified in the provided context.'
+
+Code (verbatim excerpt)
+```
+271:332:Chatbot-BE/rag/query_engine.py
+def process_query(self, query: str) -> Dict[str, Any]:
+    logger.info(f"Processing query: {query}")
+    try:
+        query_embedding = self.embed_query(query)
+        similar_chunks = self.find_similar_chunks(query_embedding)
+        if not similar_chunks:
+            return {
+                "answer": "I couldn't find any relevant information in the documentation to answer your question.",
+                "context": "No relevant context found.",
+                "chunks_used": [],
+                "query": query
+            }
+        context = self.format_context_prompt(similar_chunks)
+        prompt = self.create_ollama_prompt(query, context)
+        answer = self.query_ollama(prompt)
+        response = {
+            "answer": answer,
+            "context": context,
+            "chunks_used": [
+                {
+                    "id": chunk_data.get('id'),
+                    "title": chunk_data.get('title'),
+                    "type": chunk_data.get('type'),
+                    "similarity_score": similarity,
+                    "rank": chunk_data.get('rank')
+                }
+                for _, similarity, chunk_data in similar_chunks
+            ],
+            "query": query,
+            "total_chunks_retrieved": len(similar_chunks)
+        }
+        logger.info("Query processing completed successfully")
+        return response
+    except Exception as e:
+        logger.error(f"Error processing query: {e}")
+        raise
+```
+
+Optional helper for experiments
+- Function: run_query(query: str, params: dict) -> dict
+- Purpose: Lightweight wrapper for batch evaluations; allows overrides for top_k, temperature, and max_tokens.
+- Returns: {"answer_text": str, "retrieved_titles": List[str]}
+
+Excerpt:
+```
+353:399:Chatbot-BE/rag/query_engine.py
+def run_query(query: str, params: Dict[str, Any]) -> Dict[str, Any]:
+    top_k = int(params.get("top_k", 5))
+    temperature = float(params.get("temperature", 0.1))
+    max_tokens = int(params.get("max_tokens", 1000))
+    ...
+    query_embedding = engine.embed_query(query)
+    similar = engine.find_similar_chunks(query_embedding)
+    context = engine.format_context_prompt(similar)
+    prompt = engine.create_ollama_prompt(query, context)
+    answer_text = engine.query_ollama(prompt, options={
+        "temperature": temperature,
+        "max_tokens": max_tokens,
+    })
+    retrieved_titles = [c[2].get("title", f"Chunk {c[0]}") for c in similar]
+    return {"answer_text": answer_text, "retrieved_titles": retrieved_titles}
+```
