@@ -347,19 +347,19 @@ Answer:"""
         }
 
 
-# Cached engine for evaluation runs to avoid repeated loads
+# Cached engine for evaluation use to avoid repeated loads
 _EVAL_ENGINE: Optional[RAGQueryEngine] = None
 
 def run_query(query: str, params: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Run a single query with optional parameters.
+    Minimal helper for evaluation harnesses.
 
-    Params keys:
+    Params may include:
       - top_k: int
       - temperature: float
       - max_tokens: int
 
-    Returns dict with:
+    Returns:
       {"answer_text": str, "retrieved_titles": List[str]}
     """
     global _EVAL_ENGINE
@@ -368,7 +368,6 @@ def run_query(query: str, params: Dict[str, Any]) -> Dict[str, Any]:
     temperature = float(params.get("temperature", 0.1))
     max_tokens = int(params.get("max_tokens", 1000))
 
-    # Create or reuse engine
     if _EVAL_ENGINE is None:
         engine = RAGQueryEngine(top_k=top_k)
         engine.load_models_and_data()
