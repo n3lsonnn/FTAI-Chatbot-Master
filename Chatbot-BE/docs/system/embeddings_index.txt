@@ -1,0 +1,58 @@
+Embeddings and FAISS Index: Summary and Parameters (merged system)
+
+Where
+- File: Chatbot-BE/scripts/embed_store.py
+- Class: EmbeddingStore
+
+Embedding model
+- Library: sentence-transformers
+- Default model: all-MiniLM-L6-v2
+- Reported embedding dimension: 384
+
+Text preparation before embedding
+- Text source: models/chunks.json
+- Composition: title + "\n" + content when both are present; otherwise whichever exists
+- Whitespace: .strip() per text
+- No additional normalization/truncation here (chunk length control happens earlier during chunking)
+
+Batching and encoding
+- Batch size: 32
+- Encoding: model.encode(batch_texts, show_progress_bar=False)
+- Aggregate: numpy.vstack(all_embeddings) → shape (N, 384)
+
+FAISS index
+- Library: faiss-cpu
+- Index type: IndexFlatL2 (exact L2)
+- Dimension: embeddings.shape[1] (384)
+- Vectors added as float32: index.add(embeddings.astype('float32'))
+- No IVF/HNSW parameters used (nlist/nprobe not applicable)
+
+Persistence to disk
+- Index path: ../models/index.faiss
+  - Save: faiss.write_index(self.index, str(self.index_file))
+- Metadata path: ../models/chunk_texts.pkl (pickle)
+  - Fields: chunks, total_chunks, embedding_dimension, model_name
+
+Key parameters (current defaults)
+- model_name: all-MiniLM-L6-v2
+- embedding_dimension: 384
+- batch_size: 32
+- index_type: IndexFlatL2 (L2 distance)
+- vector_dtype: float32 in the index
+- index_file: models/index.faiss
+- metadata_file: models/chunk_texts.pkl
+
+Code references (excerpts)
+- Model:
+  self.model = SentenceTransformer(self.model_name)
+  self.model.get_sentence_embedding_dimension()
+- Embedding:
+  batch_size = 32
+  self.model.encode(...)
+  self.embeddings = np.vstack(all_embeddings)
+- Index:
+  self.index = faiss.IndexFlatL2(dimension)
+  self.index.add(embeddings.astype('float32'))
+- Save:
+  faiss.write_index(self.index, str(self.index_file))
+  pickle.dump(metadata, f)

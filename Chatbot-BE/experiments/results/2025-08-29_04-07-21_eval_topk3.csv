@@ -1,0 +1,18 @@
+timestamp,run_id,query_id,query_text,top_k,temperature,max_tokens,latency_ms,retrieved_titles,answer_text
+2025-08-29_04-07-21,eval_topk3,1,Define a dent in the SRM and say whether it changes cross-sectional area.,3,0.1,1000,63214,1. General | 10. Wing Strut Damage Criteria | 2. Negligible Damage,"The context includes technical documentation for aircraft maintenance, which provides clear, technical language that applies to damage caused by various factors such as abrasion, gouge, nick, crack, corrosion, and damage due to fatigue failure. The manual also covers the criteria for determining whether a dent in the SRM is considered negligible damage, including whether it involves removal or displacement of structural material, and whether it exceeds 0.020 inches (50% of original material thickness) or greater than 0.75 inches (more than 0.75 inches from a rivet center). The manual also covers the criteria for determining whether damage caused by groove depth exceeding 50% of the original material thickness requires replacement, and whether grooves are deeper than 50% of the original material thickness."
+2025-08-29_04-07-21,eval_topk3,2,Where should I check for corrosion from exhaust deposits?,3,0.1,1000,122110,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"
+2025-08-29_04-07-21,eval_topk3,3,List the three broad damage categories used by the SRM.,3,0.1,1000,17711,1. General | 3. Damage Classi ﬁcation | 2. Auxiliary Spar Damage,"Sure, here are the three broad damage categories used by the SRM:
+
+1. General:
+- Nieglible damage (minor damage)
+- Repairable damage (moderate damage)
+- Major replacement damage (severe damage)
+
+2. Damage Classification:
+- Negligible damage (no damage, minor repair needed)
+- Repairable damage (repairable damage, minor repair needed)
+- Major replacement damage (major repair needed, major repair or replacement required)
+
+The SRM provides general guidance on how to determine the extent and criticalness of any damage based on these categories. However, common sense should be used in determining the final action to be taken with regard to any damage."
+2025-08-29_04-07-21,eval_topk3,4,What are the depth guidelines for light corrosion?,3,0.1,1000,53318,5. Corrosion Damage Limits | 1. General | 4. Corrosion Detection,"The context mentions that following cleaning and inspecting of the corroded area, a soundmaintenance judgement will be used to determine whether or not all corrosiion products have been removed during cleanup operations. This means that the depth guidelines for light corrosiion are not specified in the given context."
+2025-08-29_04-07-21,eval_topk3,5,Explain dissimilar-metal corrosion.,3,0.1,1000,122152,,"ERROR: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)"

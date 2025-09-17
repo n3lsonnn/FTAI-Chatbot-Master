@@ -1,0 +1,4 @@
+- top-k: 1
+- max tokens: 250
+- temperature: 0.1
+- timeout/retry: 120s request timeout to Ollama, no automatic retries (fail fast)

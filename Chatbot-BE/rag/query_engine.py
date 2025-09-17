@@ -60,14 +60,14 @@ class RAGQueryEngine:
         self.chunks = []
         
         # File paths
-        self.index_file = Path("../models/index.faiss")
-        self.metadata_file = Path("../models/chunk_texts.pkl")
+        self.index_file = Path("models/index.faiss")
+        self.metadata_file = Path("models/chunk_texts.pkl")
         
-        # System prompt template
+        # System prompt template (includes strict fallback wording)
         self.system_prompt = """You are a helpful assistant for aircraft repair and maintenance. 
 You have access to technical documentation and repair manuals. 
 Always provide accurate, safety-focused answers based on the provided context.
-If the context doesn't contain enough information to answer the question safely, say so.
+If the context does not contain the information to answer the question safely, answer exactly: 'Not specified in the provided context.'
 Use clear, technical language appropriate for aircraft maintenance professionals."""
 
     def load_models_and_data(self):
@@ -217,12 +217,13 @@ Answer:"""
         
         return prompt
     
-    def query_ollama(self, prompt: str) -> str:
+    def query_ollama(self, prompt: str, options: Optional[Dict[str, Any]] = None) -> str:
         """
         Send prompt to Ollama and get response.
         
         Args:
             prompt: Complete prompt to send
+            options: Optional dict to override generation settings
             
         Returns:
             Ollama's response
@@ -230,16 +231,21 @@ Answer:"""
         logger.info("Sending query to Ollama...")
         
         try:
+            # Default generation options tuned for this laptop
+            gen_options: Dict[str, Any] = {
+                "temperature": 0.1,
+                "top_p": 0.9,
+                "max_tokens": 1000,
+            }
+            if options:
+                gen_options.update(options)
+
             # Prepare request payload
             payload = {
                 "model": self.ollama_model,
                 "prompt": prompt,
                 "stream": False,
-                "options": {
-                    "temperature": 0.1,  # Low temperature for more focused answers
-                    "top_p": 0.9,
-                    "max_tokens": 1000
-                }
+                "options": gen_options,
             }
             
             # Send request to Ollama
@@ -339,6 +345,58 @@ Answer:"""
             "faiss_index_size": self.faiss_index.ntotal if self.faiss_index else 0,
             "top_k": self.top_k
         }
+
+
+# Cached engine for evaluation use to avoid repeated loads
+_EVAL_ENGINE: Optional[RAGQueryEngine] = None
+
+def run_query(query: str, params: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Minimal helper for evaluation harnesses.
+
+    Params may include:
+      - top_k: int
+      - temperature: float
+      - max_tokens: int
+
+    Returns:
+      {"answer_text": str, "retrieved_titles": List[str]}
+    """
+    global _EVAL_ENGINE
+
+    top_k = int(params.get("top_k", 5))
+    temperature = float(params.get("temperature", 0.1))
+    max_tokens = int(params.get("max_tokens", 1000))
+
+    if _EVAL_ENGINE is None:
+        engine = RAGQueryEngine(top_k=top_k)
+        engine.load_models_and_data()
+        _EVAL_ENGINE = engine
+    else:
+        engine = _EVAL_ENGINE
+        # Allow changing retrieval count per call without reloading
+        engine.top_k = top_k
+
+    # Embed and retrieve
+    query_embedding = engine.embed_query(query)
+    similar = engine.find_similar_chunks(query_embedding)
+
+    # Build context and prompt
+    context = engine.format_context_prompt(similar)
+    prompt = engine.create_ollama_prompt(query, context)
+
+    # Generation with overrides tuned for CPU laptop
+    answer_text = engine.query_ollama(prompt, options={
+        "temperature": temperature,
+        "max_tokens": max_tokens,
+    })
+
+    retrieved_titles: List[str] = [c[2].get("title", f"Chunk {c[0]}") for c in similar]
+
+    return {
+        "answer_text": answer_text,
+        "retrieved_titles": retrieved_titles,
+    }
 
 
 def main():

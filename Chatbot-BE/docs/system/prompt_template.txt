@@ -1,0 +1,74 @@
+Final Prompt Template (as sent to the LLM)
+
+Source files
+- System instruction defined in: Chatbot-BE/rag/query_engine.py (self.system_prompt)
+- Prompt assembly in: Chatbot-BE/rag/query_engine.py (create_ollama_prompt)
+- Context assembly in: Chatbot-BE/rag/query_engine.py (format_context_prompt)
+
+1) System instruction (verbatim)
+"""
+You are a helpful assistant for aircraft repair and maintenance. 
+You have access to technical documentation and repair manuals. 
+Always provide accurate, safety-focused answers based on the provided context.
+If the context does not contain the information to answer the question safely, answer exactly: 'Not specified in the provided context.'
+Use clear, technical language appropriate for aircraft maintenance professionals.
+"""
+
+2) How retrieved chunks are inserted (context block)
+Context is created by joining a header with per-chunk blocks:
+- Header:
+  "Based on the following technical documentation:\n"
+- For each retrieved chunk (in rank order):
+  "\n--- {CHUNK_TYPE_UPPER}: {TITLE} ---\n{CONTENT}\n"
+Where:
+- CHUNK_TYPE_UPPER is the chunk's type uppercased (e.g., SECTION_CHUNK)
+- TITLE is the chunk title (e.g., "3. Damage Classification")
+- CONTENT is the chunk text (truncated upstream to at most ~2000 chars per chunk)
+
+3) How the user's query is inserted
+The user's question is interpolated after the Context section as:
+  "Question: {query}"
+Followed by a final
+  "Answer:"
+cue for the model to generate the response.
+
+4) Full prompt template (verbatim layout with placeholders)
+"""
+{SYSTEM_PROMPT}
+
+Context:
+{CONTEXT}
+
+Question: {QUERY}
+
+Answer:
+"""
+Where:
+- {SYSTEM_PROMPT} is the verbatim system instruction above
+- {CONTEXT} is the assembled context described in section (2)
+- {QUERY} is the user-provided question
+
+Key code lines (for reference)
+- System prompt definition:
+  self.system_prompt = """You are a helpful assistant for aircraft repair and maintenance. 
+  You have access to technical documentation and repair manuals. 
+  Always provide accurate, safety-focused answers based on the provided context.
+  If the context does not contain the information to answer the question safely, answer exactly: 'Not specified in the provided context.'
+  Use clear, technical language appropriate for aircraft maintenance professionals."""
+
+- Context assembly:
+  context_parts = ["Based on the following technical documentation:\n"]
+  for each chunk:
+      chunk_text = f"\n--- {chunk_type.upper()}: {title} ---\n{content}\n"
+      context_parts.append(chunk_text)
+  context = "\n".join(context_parts)
+
+- Prompt assembly:
+  prompt = f"""{self.system_prompt}
+
+  Context:
+  {context}
+
+  Question: {query}
+
+  Answer:"""

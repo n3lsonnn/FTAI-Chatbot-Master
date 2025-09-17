@@ -1,0 +1,121 @@
+Preprocessing summary for PDF manual (extraction and chunking)
+
+Overview
+- The pipeline extracts raw text from the PDF and splits it into section-based chunks.
+- No OCR is used; the parser reads embedded text.
+- Chunks are created whenever a numbered section header (e.g., "1. General") is encountered.
+- Chunks do not overlap. Each chunk’s content is truncated to a maximum of 2000 characters to reduce LLM latency.
+
+PDF parsing library
+- Library: pypdf (PdfReader)
+- Method: page.extract_text() across all pages
+
+Relevant code (excerpts):
+```
+55:86:Chatbot-BE/scripts/pdf_chunker.py
+def extract_text_from_pdf(self) -> str:
+    """
+    Extract all text from the PDF file using pypdf.
+    """
+    reader = PdfReader(self.pdf_path)
+    num_pages = len(reader.pages)
+    all_text = ""
+    for page_num, page in enumerate(reader.pages):
+        text = page.extract_text()
+        if text:
+            all_text += text + "\n"
+    return all_text
+```
+
+Cleaning/normalization
+- A cleaning function exists but is not used in the current processing path; the system explicitly uses the raw text.
+- If enabled, cleaning would:
+  - Normalize newlines (CRLF/LF)
+  - Collapse multiple spaces to single
+  - Collapse runs of blank lines to at most double newline
+- There is no dedicated header/footer/page-number stripping in code.
+
+Relevant code (excerpts):
+```
+91:111:Chatbot-BE/scripts/pdf_chunker.py
+def clean_text(self, text: str) -> str:
+    text = text.replace('\r\n', '\n').replace('\r', '\n')
+    text = re.sub(r' +', ' ', text)
+    text = re.sub(r'\n\s*\n\s*\n+', '\n\n', text)
+    return text
+```
+```
+310:325:Chatbot-BE/scripts/pdf_chunker.py
+# Use raw text without cleaning
+raw_text = self.extract_text_from_pdf()
+print(f"Extracted {len(raw_text)} characters of text")
+# Find structural boundaries (for reference)
+boundaries = self.find_structural_boundaries(raw_text)
+# Create chunks using the raw text
+self.chunks = self.create_chunks(raw_text, boundaries)
+```
+
+Chunking: rules and regex
+- New chunk boundary: line starts with a number, period, and space (e.g., "1. ")
+- Primary boundary regex: ^[0-9]+\.\s+.*
+- Title extraction prefers the same numeric-header pattern; secondarily accepts lettered (A.) and parenthetical (1) formats for titling only.
+- Additional structural patterns (e.g., A., (1), roman numerals) are used for reference/debug via find_structural_boundaries; they do not define chunk boundaries.
+
+Relevant code (excerpts):
+```
+151:236:Chatbot-BE/scripts/pdf_chunker.py
+def refined_chunk_by_section(self, text: str) -> List[Dict]:
+    lines = text.split("\n")
+    section_header_pattern = re.compile(r"^[0-9]+\.\s+.*")
+    for line_num, line in enumerate(lines):
+        line = line.strip()
+        if not line:
+            continue
+        header_match = section_header_pattern.match(line)
+        if header_match and current_chunk:
+            # finalize current chunk, then start a new one
+            ...
+        else:
+            current_chunk += "\n" + line
+    # finalize last chunk
+```
+```
+248:271:Chatbot-BE/scripts/pdf_chunker.py
+def _extract_section_title(self, chunk_text: str) -> str:
+    # Prefer numeric section header first
+    if re.match(r"^[0-9]+\.\s+.*", line):
+        return line[:150]
+    # Also accept lettered and parenthetical formats for titling
+    if re.match(r'^[A-Z]\.\s+', line):
+        return line[:150]
+    if re.match(r'^\(\d+\)\s+', line):
+        return line[:150]
+```
+```
+36:53:Chatbot-BE/scripts/pdf_chunker.py
+# Structural patterns (used for reference in boundary finding)
+self.structural_patterns = [
+    r'^\s*(\d+)\.\s+',         # numbered sections (1., 2., 3.)
+    r'^\s*([A-Z])\.\s+',       # lettered (A., B., C.)
+    r'^\s*\((\d+)\)\s+',     # (1), (2), (3)
+    r'^\s*([IVX]+)\.\s+',      # roman numerals (I., II., III.)
+    r'^\s*([a-z])\.\s+',       # lowercase (a., b., c.)
+    r'^\s*\(([a-z])\)\s+',    # (a), (b), (c)
+]
+```
+
+Chunk size and overlap
+- Overlap: None (hard section boundaries only).
+- Max chunk content length: 2000 characters (truncate beyond this limit).
+
+Relevant code (excerpts):
+```
+273:296:Chatbot-BE/scripts/pdf_chunker.py
+def create_chunks(self, text: str, boundaries: List[Tuple[int, str, str]]) -> List[Dict]:
+    chunks = self.refined_chunk_by_section(text)
+    # Limit context length for faster processing
+    for chunk in chunks:
+        if len(chunk['content']) > 2000:
+            chunk['content'] = chunk['content'][:2000] + "..."
+    return chunks
+```

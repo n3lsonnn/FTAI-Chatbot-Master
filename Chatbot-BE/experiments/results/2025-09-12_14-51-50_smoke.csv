@@ -1,0 +1,45 @@
+timestamp,run_id,query_id,query_text,top_k,temperature,max_tokens,latency_ms,retrieved_titles,answer_text
+2025-09-12_14-51-50,smoke,1,Define a dent in the SRM and say whether it changes cross-sectional area.,1,0.1,250,31415,1. General,"Sure! A dent is a damaged area which results in a change in the cross-sectional area of the material, as defined by the term ""dent"" in the context of this manual. The term ""dent"" refers to a damaged area which is depressewd with respect to its normal contour and has no cross sectional area change in the material. A dent-like form of damage may result from the peening action of a smoothly contoured object contacting it, but if the inner surface of skin shows no contour change, consider that such damage results in a local cross sectional area change. The term ""abrasion"" is used to describe damaged areas which are scuffed or rubbed, resulting in a change in the cross-sectional area due to scufﬁng, rubbing, scrapping, or other surface action. A dent does not change the overall structural integrity of the airplane as defined by the term ""corrosion"" in the context of this manual."
+2025-09-12_14-51-50,smoke,2,Where should I check for corrosion from exhaust deposits?,1,0.1,250,22257,3. Typical Corrosion Areas,"According to the given context, the question is asking where to check for corrosion from exhaust deposits in the airplane. The technical documentation provided states that these areas are typically susceptible to corrosion and should be carefully inspected at periodic intervals to detect corrosion as early as possible. (1) Engine Exhaust Trail Area, (a) Gaps, seams, and fairings on the lower fuselage, afte...
+
+Based on the given context, the answer is that these areas should be carefully inspected at periodic intervals to detect corrosion as early as possible."
+2025-09-12_14-51-50,smoke,3,List the three broad damage categories used by the SRM.,1,0.1,250,11942,1. General,"Sure! Here's a revised version with the correct technical language for aircraft maintenance professionals:
+
+Context:
+Base on the following technical documentation:
+
+--- SECTION_CHUNK: 1. General ---
+1. General
+A. Damage to the fuselage can be divided into three major categories;
+i) Nieglible damage, which is damage that does not require repair or replacement;
+ii) Repairable damage, which requires minor repairs but does not require a complete overhaul of the aircraft's systems and components;
+iii) Major replacement damage, which requires a complete overhaul of the aircraft's systems and components. The categories are provided to assist in determining the extent and criticalness of any damage."
+2025-09-12_14-51-50,smoke,4,What are the depth guidelines for light corrosion?,1,0.1,250,22384,5. Corrosion Damage Limits,"According to the provided technical documentation, the depth guidelines for light corrosiion are as follows:
+- Characterized by discoloration or pitting to a depth of approximately 0.001 inch (incch) maximum.
+- Appears similar to light corrosiion excpet there may be blistering or some evidence of scaling or/and scratching.
+Pitting depths may be as deep as 10% of the material thickness.
+
+The provided context does not contain information on the depth guidelines for severe corrosion, so the answer is ""Not specified in the provided context."""
+2025-09-12_14-51-50,smoke,5,Explain dissimilar-metal corrosion.,1,0.1,250,55970,1. General,"Sure! Here's a more detailed explanation of how corrosion occurs in aircraft and what factors contribute to it:
+
+1. General
+Airplane construction is subject to corrosion, which is a natural phenomenon that results from the chemical or electrochemical action of metal on other metals, such as steel alloys used for airframe components. Corrosion can occur over an entire metal surface, leading to deep pit-like defects or promoting the formation of new corrosion spots.
+
+2. Factors contributing to corrosion
+There are several factors that contribute to corrosion in aircraft:
+
+a) Exposure to external loads, such as stress from wind turbines, brake pads, and landing gear, which can cause metal to become more susceptible to corrosion.
+
+b) Improper heat treatment, which can lead to the formation of corrosion spots on surfaces that are not in contact with the metal.
+
+c) Difficulty in achieving a homogeneous structure or lack of homogeneity in the metal structure, which can promote the formation of deep pit-like defects.
+
+d) Improper use of lubricants and coatings, which can lead to the accumulation of moisture on surfaces that are not in contact with the metal.
+
+3. Electrochemical corrosiion
+Electrochemical corrosion occurs when a metal is exposed to an electrolyte solution containing ions such as sodium or potassium, which can cause the formation of a corrosive environment on the surface of the metal. This environment promotes the formation of new corrosion spots and leads to the destruction of the metal's structure.
+
+4. Avoiding electrochemical corrosiion
+To prevent electrochemical corrosion, aircraft construction should be designed with a continuous liquid path between the metal surfaces that act as the electrolyte solution. This can be achieved by using materials such as paint, grease, or plastic coatings to prevent the formation of new corrosion spots on the surface of the metal.
+
+In summary, corrosion is a natural phenomenon that occurs in aircraft construction due to exposure to external loads and improper heat treatment. Factors contributing to corrosion include exposure to external loads, improper heat treatment, and the formation of deep pit-like defects on surfaces that are not in contact with the metal. Electrochemical corrosion is also a possibility, but preventative measures can be taken to avoid it."

@@ -1,0 +1,6 @@
+timestamp,run_id,query_id,query_text,top_k,temperature,max_tokens,latency_ms,retrieved_titles,answer_text
+2025-09-12_14-48-14,smoke,1,Define a dent in the SRM and say whether it changes cross-sectional area.,3,0.1,600,3463,,ERROR: FAISS index not found: ..\models\index.faiss
+2025-09-12_14-48-14,smoke,2,Where should I check for corrosion from exhaust deposits?,3,0.1,600,2363,,ERROR: FAISS index not found: ..\models\index.faiss
+2025-09-12_14-48-14,smoke,3,List the three broad damage categories used by the SRM.,3,0.1,600,2263,,ERROR: FAISS index not found: ..\models\index.faiss
+2025-09-12_14-48-14,smoke,4,What are the depth guidelines for light corrosion?,3,0.1,600,2011,,ERROR: FAISS index not found: ..\models\index.faiss
+2025-09-12_14-48-14,smoke,5,Explain dissimilar-metal corrosion.,3,0.1,600,1964,,ERROR: FAISS index not found: ..\models\index.faiss
