@@ -60,8 +60,8 @@ class RAGQueryEngine:
         self.chunks = []
         
         # File paths
-        self.index_file = Path("../models/index.faiss")
-        self.metadata_file = Path("../models/chunk_texts.pkl")
+        self.index_file = Path("models/index.faiss")
+        self.metadata_file = Path("models/chunk_texts.pkl")
         
         # System prompt template (includes strict fallback wording)
         self.system_prompt = """You are a helpful assistant for aircraft repair and maintenance. 
